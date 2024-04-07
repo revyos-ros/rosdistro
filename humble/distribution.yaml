@@ -5,10 +5,6 @@
 release_platforms:
   debian:
   - bullseye
-  rhel:
-  - '8'
-  ubuntu:
-  - jammy
 repositories:
   aandd_ekew_driver_py:
     doc:
