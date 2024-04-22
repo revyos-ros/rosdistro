@@ -8825,7 +8825,6 @@ xsimd:
   alpine: [xsimd]
   debian:
     '*': [libxsimd-dev]
-    bullseye: null
     buster: null
   fedora: [xsimd-devel]
   gentoo: [dev-cpp/xsimd]
@@ -8855,6 +8854,8 @@ xtensor:
     bionic: [xtensor-dev]
     jammy: [libxtensor-dev]
     noble: [libxtensor-dev]
+  debian:
+    '*': [libxtensor-dev]
 xterm:
   arch: [xterm]
   debian: [xterm]
