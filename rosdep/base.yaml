@@ -1251,6 +1251,7 @@ gazebo:
   debian:
     buster: [gazebo11]
     stretch: [gazebo9]
+    bullseye: [gazebo]
   fedora: [gazebo]
   gentoo: [sci-electronics/gazebo]
   nixos: [gazebo]
@@ -1262,6 +1263,7 @@ gazebo:
 gazebo11:
   debian:
     buster: [gazebo11]
+    bullseye: [gazebo]
   gentoo: [=sci-electronics/gazebo-11*]
   nixos: [gazebo_11]
   ubuntu:
@@ -3574,6 +3576,7 @@ libgazebo-dev:
 libgazebo11-dev:
   debian:
     buster: [libgazebo11-dev]
+    bullseye: [libgazebo-dev]
   gentoo: [=sci-electronics/gazebo-11*]
   nixos: [gazebo_11]
   ubuntu:
