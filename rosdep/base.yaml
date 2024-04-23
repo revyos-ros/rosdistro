@@ -1330,7 +1330,6 @@ gdal-bin:
 geographiclib:
   debian:
     '*': [libgeographiclib-dev]
-    bullseye: [libgeographic-dev]
   fedora: [GeographicLib-devel]
   gentoo: [sci-geosciences/GeographicLib]
   nixos: [geographiclib]
