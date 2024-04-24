@@ -4563,8 +4563,8 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/astuff/network_interface-release.git
-      version: 2003.1.1-2
+      url: https://github.com/revyos-ros/network_interface-release.git
+      version: 2003.1.2-1
     source:
       type: git
       url: https://github.com/astuff/network_interface.git
