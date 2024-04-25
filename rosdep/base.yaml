@@ -3556,7 +3556,6 @@ libfyaml-dev:
   alpine: [libfyaml-dev]
   debian:
     '*': [libfyaml-dev]
-    bullseye: null
   fedora: [libfyaml-devel]
   nixos: [libfyaml]
   opensuse:
