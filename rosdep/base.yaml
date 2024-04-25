@@ -2044,6 +2044,7 @@ ignition-cmake2:
   debian:
     bookworm: [libignition-cmake-dev]
     buster: [libignition-cmake2-dev]
+    '*': [libignition-cmake-dev]
   gentoo: ['dev-build/ignition-cmake:2']
   nixos: [ignition.cmake2]
   ubuntu:
