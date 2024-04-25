@@ -2154,6 +2154,7 @@ ignition-math6:
   debian:
     bookworm: [libignition-math-dev]
     buster: [libignition-math6-dev]
+    '*': [libignition-math-dev]
   gentoo: ['sci-libs/ignition-math:6']
   nixos: [ignition.math6]
   ubuntu:
