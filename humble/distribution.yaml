@@ -6953,7 +6953,7 @@ repositories:
       - ros2_socketcan_msgs
       tags:
         release: release/humble/{package}/{version}
-      url: git@github.com:revyos-ros/ros2_socketcan-release.git
+      url: https://github.com/revyos-ros/ros2_socketcan-release.git
       version: 1.2.0-1
     source:
       type: git
