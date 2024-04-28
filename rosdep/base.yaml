@@ -2183,6 +2183,7 @@ ignition-msgs7:
 ignition-msgs8:
   debian:
     buster: [libignition-msgs8-dev]
+    bullseye: [libignition-msgs-dev]
   ubuntu:
     focal: [libignition-msgs8-dev]
     jammy: [libignition-msgs8-dev]
@@ -2255,6 +2256,7 @@ ignition-transport10:
 ignition-transport11:
   debian:
     buster: [libignition-transport11-dev]
+    bullseye: [libignition-transport-dev]
   ubuntu:
     focal: [libignition-transport11-dev]
     jammy: [libignition-transport11-dev]
