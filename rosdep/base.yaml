@@ -4809,7 +4809,7 @@ libpcl-all:
   arch: [pcl]
   debian:
     bookworm: [libpcl-apps1.13, libpcl-common1.13, libpcl-features1.13, libpcl-filters1.13, libpcl-io1.13, libpcl-kdtree1.13, libpcl-keypoints1.13, libpcl-ml1.13, libpcl-octree1.13, libpcl-outofcore1.13, libpcl-people1.13, libpcl-recognition1.13, libpcl-registration1.13, libpcl-sample-consensus1.13, libpcl-search1.13, libpcl-segmentation1.13, libpcl-stereo1.13, libpcl-surface1.13, libpcl-tracking1.13, libpcl-visualization1.13]
-    bullseye: [libpcl-apps1.11, libpcl-common1.11, libpcl-features1.11, libpcl-filters1.11, libpcl-io1.11, libpcl-kdtree1.11, libpcl-keypoints1.11, libpcl-ml1.11, libpcl-octree1.11, libpcl-outofcore1.11, libpcl-people1.11, libpcl-recognition1.11, libpcl-registration1.11, libpcl-sample-consensus1.11, libpcl-search1.11, libpcl-segmentation1.11, libpcl-stereo1.11, libpcl-surface1.11, libpcl-tracking1.11, libpcl-visualization1.11]
+    bullseye: [libpcl-apps1.13, libpcl-common1.13, libpcl-features1.13, libpcl-filters1.13, libpcl-io1.13, libpcl-kdtree1.13, libpcl-keypoints1.13, libpcl-ml1.13, libpcl-octree1.13, libpcl-outofcore1.13, libpcl-people1.13, libpcl-recognition1.13, libpcl-registration1.13, libpcl-sample-consensus1.13, libpcl-search1.13, libpcl-segmentation1.13, libpcl-stereo1.13, libpcl-surface1.13, libpcl-tracking1.13, libpcl-visualization1.13]
     buster: [libpcl-apps1.9, libpcl-common1.9, libpcl-features1.9, libpcl-filters1.9, libpcl-io1.9, libpcl-kdtree1.9, libpcl-keypoints1.9, libpcl-ml1.9, libpcl-octree1.9, libpcl-outofcore1.9, libpcl-people1.9, libpcl-recognition1.9, libpcl-registration1.9, libpcl-sample-consensus1.9, libpcl-search1.9, libpcl-segmentation1.9, libpcl-stereo1.9, libpcl-surface1.9, libpcl-tracking1.9, libpcl-visualization1.9]
   fedora: [pcl, pcl-tools]
   freebsd: [libpcl]
@@ -4841,7 +4841,7 @@ libpcl-all-dev:
 libpcl-apps:
   alpine: [pcl-libs]
   debian:
-    bullseye: [libpcl-apps1.11]
+    bullseye: [libpcl-apps1.13]
     buster: [libpcl-apps1.9]
   fedora: [pcl]
   freebsd: [libpcl]
@@ -4859,7 +4859,7 @@ libpcl-common:
   alpine: [pcl-libs]
   debian:
     bookworm: [libpcl-common1.13]
-    bullseye: [libpcl-common1.11]
+    bullseye: [libpcl-common1.13]
     buster: [libpcl-common1.9]
   fedora: [pcl]
   freebsd: [libpcl]
@@ -4878,7 +4878,7 @@ libpcl-features:
   alpine: [pcl-libs]
   debian:
     bookworm: [libpcl-features1.13]
-    bullseye: [libpcl-features1.11]
+    bullseye: [libpcl-features1.13]
     buster: [libpcl-features1.9]
   fedora: [pcl]
   freebsd: [libpcl]
@@ -4897,7 +4897,7 @@ libpcl-filters:
   alpine: [pcl-libs]
   debian:
     bookworm: [libpcl-filters1.13]
-    bullseye: [libpcl-filters1.11]
+    bullseye: [libpcl-filters1.13]
     buster: [libpcl-filters1.9]
   fedora: [pcl]
   freebsd: [libpcl]
@@ -4916,7 +4916,7 @@ libpcl-io:
   alpine: [pcl-libs]
   debian:
     bookworm: [libpcl-io1.13]
-    bullseye: [libpcl-io1.11]
+    bullseye: [libpcl-io1.13]
     buster: [libpcl-io1.9]
   fedora: [pcl]
   freebsd: [libpcl]
@@ -4934,7 +4934,7 @@ libpcl-io:
 libpcl-kdtree:
   alpine: [pcl-libs]
   debian:
-    bullseye: [libpcl-kdtree1.11]
+    bullseye: [libpcl-kdtree1.13]
     buster: [libpcl-kdtree1.9]
   fedora: [pcl]
   freebsd: [libpcl]
@@ -4951,7 +4951,7 @@ libpcl-kdtree:
 libpcl-keypoints:
   alpine: [pcl-libs]
   debian:
-    bullseye: [libpcl-keypoints1.11]
+    bullseye: [libpcl-keypoints1.13]
     buster: [libpcl-keypoints1.9]
   fedora: [pcl]
   freebsd: [libpcl]
@@ -4968,7 +4968,7 @@ libpcl-keypoints:
 libpcl-ml:
   alpine: [pcl-libs]
   debian:
-    bullseye: [libpcl-ml1.11]
+    bullseye: [libpcl-ml1.13]
     buster: [libpcl-ml1.9]
   fedora: [pcl]
   freebsd: [libpcl]
@@ -4985,7 +4985,7 @@ libpcl-ml:
 libpcl-octree:
   alpine: [pcl-libs]
   debian:
-    bullseye: [libpcl-octree1.11]
+    bullseye: [libpcl-octree1.13]
     buster: [libpcl-octree1.9]
   fedora: [pcl]
   freebsd: [libpcl]
@@ -5002,7 +5002,7 @@ libpcl-octree:
 libpcl-outofcore:
   alpine: [pcl-libs]
   debian:
-    bullseye: [libpcl-outofcore1.11]
+    bullseye: [libpcl-outofcore1.13]
     buster: [libpcl-outofcore1.9]
   fedora: [pcl]
   freebsd: [libpcl]
@@ -5019,7 +5019,7 @@ libpcl-outofcore:
 libpcl-people:
   alpine: [pcl-libs]
   debian:
-    bullseye: [libpcl-people1.11]
+    bullseye: [libpcl-people1.13]
     buster: [libpcl-people1.9]
   fedora: [pcl]
   freebsd: [libpcl]
@@ -5036,7 +5036,7 @@ libpcl-people:
 libpcl-recognition:
   alpine: [pcl-libs]
   debian:
-    bullseye: [libpcl-recognition1.11]
+    bullseye: [libpcl-recognition1.13]
     buster: [libpcl-recognition1.9]
   fedora: [pcl]
   freebsd: [libpcl]
@@ -5053,7 +5053,7 @@ libpcl-recognition:
 libpcl-registration:
   alpine: [pcl-libs]
   debian:
-    bullseye: [libpcl-registration1.11]
+    bullseye: [libpcl-registration1.13]
     buster: [libpcl-registration1.9]
   fedora: [pcl]
   freebsd: [libpcl]
@@ -5070,7 +5070,7 @@ libpcl-registration:
 libpcl-sample-consensus:
   alpine: [pcl-libs]
   debian:
-    bullseye: [libpcl-sample-consensus1.11]
+    bullseye: [libpcl-sample-consensus1.13]
     buster: [libpcl-sample-consensus1.9]
   fedora: [pcl]
   freebsd: [libpcl]
@@ -5087,7 +5087,7 @@ libpcl-sample-consensus:
 libpcl-search:
   alpine: [pcl-libs]
   debian:
-    bullseye: [libpcl-search1.11]
+    bullseye: [libpcl-search1.13]
     buster: [libpcl-search1.9]
   fedora: [pcl]
   freebsd: [libpcl]
@@ -5105,7 +5105,7 @@ libpcl-segmentation:
   alpine: [pcl-libs]
   debian:
     bookworm: [libpcl-segmentation1.13]
-    bullseye: [libpcl-segmentation1.11]
+    bullseye: [libpcl-segmentation1.13]
     buster: [libpcl-segmentation1.9]
   fedora: [pcl]
   freebsd: [libpcl]
@@ -5123,7 +5123,7 @@ libpcl-segmentation:
 libpcl-stereo:
   alpine: [pcl-libs]
   debian:
-    bullseye: [libpcl-stereo1.11]
+    bullseye: [libpcl-stereo1.13]
     buster: [libpcl-stereo1.9]
   fedora: [pcl]
   freebsd: [libpcl]
@@ -5141,7 +5141,7 @@ libpcl-surface:
   alpine: [pcl-libs]
   debian:
     bookworm: [libpcl-surface1.13]
-    bullseye: [libpcl-surface1.11]
+    bullseye: [libpcl-surface1.13]
     buster: [libpcl-surface1.9]
   fedora: [pcl]
   freebsd: [libpcl]
@@ -5159,7 +5159,7 @@ libpcl-surface:
 libpcl-tracking:
   alpine: [pcl-libs]
   debian:
-    bullseye: [libpcl-tracking1.11]
+    bullseye: [libpcl-tracking1.13]
     buster: [libpcl-tracking1.9]
   fedora: [pcl]
   freebsd: [libpcl]
@@ -5176,7 +5176,7 @@ libpcl-tracking:
 libpcl-visualization:
   alpine: [pcl-libs]
   debian:
-    bullseye: [libpcl-visualization1.11]
+    bullseye: [libpcl-visualization1.13]
     buster: [libpcl-visualization1.9]
   fedora: [pcl]
   freebsd: [libpcl]
