@@ -7680,8 +7680,8 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/rqt_plot-release.git
-      version: 1.1.2-1
+      url: https://github.com/revyos-ros/rqt_plot-release.git
+      version: 1.1.2-2
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_plot.git
