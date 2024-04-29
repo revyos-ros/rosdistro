@@ -7034,8 +7034,8 @@ repositories:
       - ros2topic
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/ros2cli-release.git
-      version: 0.18.9-1
+      url: https://github.com/revyos-ros/ros2cli-release.git
+      version: 0.18.9-2
     source:
       test_pull_requests: true
       type: git
