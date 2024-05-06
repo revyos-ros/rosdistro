@@ -7695,8 +7695,8 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/rqt_publisher-release.git
-      version: 1.5.0-1
+      url: https://github.com/revyos-ros/rqt_publisher-release.git
+      version: 1.5.0-2
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_publisher.git
