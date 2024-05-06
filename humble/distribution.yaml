@@ -6701,8 +6701,8 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/robot_localization-release.git
-      version: 3.5.2-1
+      url: https://github.com/revyos-ros/robot_localization-release.git
+      version: 3.5.3-2
     source:
       test_pull_requests: true
       type: git
