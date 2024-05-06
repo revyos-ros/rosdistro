@@ -1251,7 +1251,7 @@ gazebo:
   debian:
     buster: [gazebo11]
     stretch: [gazebo9]
-    bullseye: [gazebo]
+    bullseye: [gazebo11]
   fedora: [gazebo]
   gentoo: [sci-electronics/gazebo]
   nixos: [gazebo]
@@ -1263,7 +1263,7 @@ gazebo:
 gazebo11:
   debian:
     buster: [gazebo11]
-    bullseye: [gazebo]
+    bullseye: [gazebo11]
   gentoo: [=sci-electronics/gazebo-11*]
   nixos: [gazebo_11]
   ubuntu:
@@ -3569,7 +3569,7 @@ libfyaml-dev:
     focal: null
 libgazebo-dev:
   debian:
-    bullseye: [libgazebo-dev]
+    bullseye: [libgazebo11-dev]
     buster: [libgazebo11-dev]
   fedora: [gazebo-devel]
   gentoo: [=sci-electronics/gazebo-11*]
@@ -3579,7 +3579,7 @@ libgazebo-dev:
 libgazebo11-dev:
   debian:
     buster: [libgazebo11-dev]
-    bullseye: [libgazebo-dev]
+    bullseye: [libgazebo11-dev]
   gentoo: [=sci-electronics/gazebo-11*]
   nixos: [gazebo_11]
   ubuntu:
