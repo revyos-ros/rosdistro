@@ -8737,7 +8737,6 @@ wxwidgets:
   arch: [wxgtk]
   debian:
     '*': [libwxgtk3.2-dev]
-    bullseye: [libwxgtk3.0-gtk3-dev]
     buster: [libwxgtk3.0-dev]
   fedora: [wxGTK3-devel]
   freebsd: [wxgtk2]
