@@ -2716,8 +2716,8 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros4hri/hri_msgs-release.git
-      version: 2.0.0-1
+      url: https://github.com/revyos-ros/hri_msgs-release.git
+      version: 2.0.0-2
     source:
       type: git
       url: https://github.com/ros4hri/hri_msgs.git
