@@ -2207,6 +2207,7 @@ ignition-physics5:
 ignition-plugin:
   debian:
     buster: [libignition-plugin-dev]
+    bullseye: [libignition-plugin-dev]
   ubuntu:
     focal: [libignition-plugin-dev]
     jammy: [libignition-plugin-dev]
