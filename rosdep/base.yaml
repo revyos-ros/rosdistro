@@ -7906,6 +7906,7 @@ sdformat11:
 sdformat12:
   debian:
     buster: [libsdformat12-dev]
+    bullseye: [libsdformat-dev]
   ubuntu:
     focal: [libsdformat12-dev]
     jammy: [libsdformat12-dev]
