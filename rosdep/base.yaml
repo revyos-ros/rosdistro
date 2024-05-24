@@ -2110,6 +2110,7 @@ ignition-gazebo5-plugins:
 ignition-gazebo6:
   debian:
     buster: [libignition-gazebo6-dev]
+    bullseye: [libignition-gazebo-dev]
   ubuntu:
     focal: [libignition-gazebo6-dev]
     jammy: [libignition-gazebo6-dev]
