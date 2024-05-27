@@ -6948,6 +6948,9 @@ repositories:
       url: https://github.com/autowarefoundation/ros2_socketcan.git
       version: main
     release:
+      packages:
+      - ros2_socketcan
+      - ros2_socketcan_msgs
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/revyos-ros/ros2_socketcan-release.git
