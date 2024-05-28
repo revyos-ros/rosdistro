@@ -1940,6 +1940,8 @@ gz-transport11:
 gz-transport12:
   gentoo: ['net-libs/gz-transport:12']
 gz-transport8:
+  debian:
+    bullseye: [libgz-transport8-dev]
   ubuntu:
     focal: [libgz-transport8-dev]
 gz-utils1:
@@ -2266,6 +2268,7 @@ ignition-transport11:
 ignition-transport8:
   debian:
     buster: [libignition-transport8-dev]
+    bullseye: [libignition-transport8-dev]
   nixos: [ignition.transport8]
   ubuntu:
     focal: [libignition-transport8-dev]
@@ -4048,6 +4051,7 @@ libignition-transport10:
 libignition-transport8:
   debian:
     buster: [libignition-transport8]
+    bullseye: [libignition-transport8]
   nixos: [ignition.transport8]
   ubuntu:
     focal: [libignition-transport8]
