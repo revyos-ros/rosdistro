@@ -2074,6 +2074,7 @@ ignition-edifice:
 ignition-fortress:
   debian:
     buster: [ignition-fortress]
+    bullseye: [ignition-fortress]
   ubuntu:
     focal: [ignition-fortress]
     jammy: [ignition-fortress]
