@@ -2138,6 +2138,7 @@ ignition-gui5:
 ignition-gui6:
   debian:
     buster: [libignition-gui6-dev]
+    bullseye: [libignition-gui-dev]
   ubuntu:
     focal: [libignition-gui6-dev]
     jammy: [libignition-gui6-dev]
