@@ -4326,7 +4326,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/mvsim-release.git
+      url: https://github.com/revyos-ros/mvsim-release.git
       version: 0.9.4-1
     source:
       type: git
