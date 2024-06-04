@@ -3419,7 +3419,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/pal-gbp/launch_pal-release.git
+      url: https://github.com/revyos-ros/launch_pal-release.git
       version: 0.1.6-1
     source:
       type: git
