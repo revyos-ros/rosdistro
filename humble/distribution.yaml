@@ -3067,7 +3067,7 @@ repositories:
       - rviz_imu_plugin
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/imu_tools-release.git
+      url: https://github.com/revyos-ros/imu_tools-release.git
       version: 2.1.4-1
     source:
       test_pull_requests: true
