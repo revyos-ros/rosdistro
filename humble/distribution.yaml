@@ -5823,7 +5823,7 @@ repositories:
       - zstd_point_cloud_transport
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/point_cloud_transport_plugins-release.git
+      url: https://github.com/revyos-ros/point_cloud_transport_plugins-release.git
       version: 1.0.11-1
     source:
       type: git
