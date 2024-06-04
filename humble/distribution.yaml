@@ -1969,7 +1969,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/fast_gicp-release.git
+      url: https://github.com/revyos-ros/fast_gicp-release.git
       version: 0.0.0-1
     source:
       type: git
