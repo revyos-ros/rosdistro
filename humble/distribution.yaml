@@ -2122,7 +2122,7 @@ repositories:
       - flexbe_widget
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/flexbe_behavior_engine-release.git
+      url: https://github.com/revyos-ros/flexbe_behavior_engine-release.git
       version: 2.3.5-1
     source:
       type: git
