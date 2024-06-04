@@ -659,7 +659,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/autoware_internal_msgs-release.git
+      url: https://github.com/revyos-ros/autoware_internal_msgs-release.git
       version: 1.0.1-1
     source:
       type: git
