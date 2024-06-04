@@ -837,6 +837,7 @@ docker.io:
     stretch: null
     wheezy: null
   fedora: [docker]
+  nixos: [docker]
   ubuntu: [docker.io]
 doxygen:
   arch: [doxygen]
@@ -1458,6 +1459,7 @@ glslang-dev:
   debian: [glslang-dev]
   fedora: [glslang-devel]
   gentoo: [dev-util/glslang]
+  nixos: [glslang]
   opensuse: [glslang-devel]
   rhel:
     '*': [glslang-devel]
@@ -1470,6 +1472,7 @@ glslc:
     bullseye: null
   fedora: [glslc]
   gentoo: [media-libs/shaderc]
+  nixos: [shaderc]
   rhel:
     '*': [glslc]
     '8': null
@@ -1596,7 +1599,7 @@ graphicsmagick:
   arch: [graphicsmagick]
   debian: [libgraphicsmagick++1-dev, graphicsmagick-libmagick-dev-compat]
   fedora: [GraphicsMagick-c++-devel]
-  gentoo: [virtual/imagemagick-tools]
+  gentoo: [media-gfx/graphicsmagick]
   macports: [GraphicsMagick]
   nixos: [graphicsmagick]
   openembedded: [graphicsmagick@meta-ros2]
@@ -2574,6 +2577,7 @@ libavahi-core-dev:
 libavdevice-dev:
   debian: [libavdevice-dev]
   fedora: [libavdevice-free-devel]
+  nixos: [ffmpeg]
   rhel:
     '*': [libavdevice-free-devel]
     '8': null
@@ -2611,6 +2615,14 @@ libblas-dev:
   openembedded: [openblas@meta-ros-common]
   rhel: [blas-devel]
   ubuntu: [libblas-dev]
+libblosc-dev:
+  alpine: [blosc-dev]
+  debian: [libblosc-dev]
+  fedora: [blosc-devel]
+  nixos: [c-blosc]
+  opensuse: [blosc-devel]
+  rhel: [blosc-devel]
+  ubuntu: [libblosc-dev]
 libbluetooth:
   arch: [bluez]
   debian: [libbluetooth3]
@@ -3282,6 +3294,7 @@ libdraco-dev:
   arch: [draco]
   debian: [libdraco-dev]
   fedora: [draco-devel]
+  nixos: [draco]
   rhel:
     '*': [draco-devel]
     '8': null
@@ -3380,6 +3393,14 @@ libevdev-dev:
   gentoo: [dev-libs/libevdev]
   nixos: [libevdev]
   ubuntu: [libevdev-dev]
+libevent-dev:
+  alpine: [libevent-dev]
+  arch: [libevent]
+  debian: [libevent-dev]
+  fedora: [libevent-devel]
+  opensuse: [libevent-devel]
+  rhel: [libevent-devel]
+  ubuntu: [libevent-dev]
 libexpat1-dev:
   arch: [expat]
   debian: [libexpat1-dev]
@@ -3483,6 +3504,7 @@ libfreeimage-dev:
   arch: [freeimage]
   debian: [libfreeimage-dev]
   fedora: [freeimage-devel]
+  nixos: [freeimage]
   opensuse: [freeimage-devel]
   rhel: [freeimage-devel]
   ubuntu: [libfreeimage-dev]
@@ -3903,6 +3925,14 @@ libgtkmm:
   fedora: [gtkmm24]
   gentoo: [dev-cpp/gtkmm]
   ubuntu: [libgtkmm-2.4-dev]
+libgtkmm3.0-dev:
+  alpine: [gtkmm3-dev]
+  arch: [gtkmm3]
+  debian: [libgtkmm-3.0-dev]
+  fedora: [gtkmm30-devel]
+  gentoo: ['dev-cpp/gtkmm:3.0']
+  rhel: [gtkmm30-devel]
+  ubuntu: [libgtkmm-3.0-dev]
 libgts:
   arch: [gts]
   debian: [libgts-dev]
@@ -4247,6 +4277,7 @@ liblmdb-dev:
 liblttng-ctl-dev:
   debian: [liblttng-ctl-dev]
   fedora: [lttng-tools-devel]
+  nixos: [lttng-tools]
   openembedded: [lttng-tools@openembedded-core]
   opensuse: [lttng-tools-devel]
   rhel: [lttng-tools-devel]
@@ -4263,6 +4294,7 @@ liblttng-ust-dev:
 liblz4:
   debian: [liblz4-1]
   fedora: [lz4-libs]
+  nixos: [lz4]
   opensuse:
     '*': [liblz4]
     '15.2': null
@@ -4271,6 +4303,7 @@ liblz4:
 liblz4-dev:
   debian: [liblz4-dev]
   fedora: [lz4-devel]
+  nixos: [lz4]
   opensuse:
     '*': [liblz4-devel]
     '15.2': null
@@ -4387,6 +4420,16 @@ libmsgsl-dev:
   fedora: [guidelines-support-library-devel]
   gentoo: [dev-cpp/ms-gsl]
   ubuntu: [libmsgsl-dev]
+libmysql++-dev:
+  debian: [libmysql++-dev]
+  fedora: [mysql++-devel]
+  ubuntu: [libmysql++-dev]
+libmysql++3v5:
+  debian: [libmysql++3v5]
+  fedora: [mysql++]
+  ubuntu:
+    focal: [libmysql++3v5]
+    jammy: [libmysql++3v5]
 libmysqlclient-dev:
   arch: [mariadb]
   debian: [libmysqlclient-dev]
@@ -4834,7 +4877,7 @@ libpcl-all:
     bionic: [libpcl-apps1.8, libpcl-common1.8, libpcl-features1.8, libpcl-filters1.8, libpcl-io1.8, libpcl-kdtree1.8, libpcl-keypoints1.8, libpcl-ml1.8, libpcl-octree1.8, libpcl-outofcore1.8, libpcl-people1.8, libpcl-recognition1.8, libpcl-registration1.8, libpcl-sample-consensus1.8, libpcl-search1.8, libpcl-segmentation1.8, libpcl-stereo1.8, libpcl-surface1.8, libpcl-tracking1.8, libpcl-visualization1.8]
     focal: [libpcl-apps1.10, libpcl-common1.10, libpcl-features1.10, libpcl-filters1.10, libpcl-io1.10, libpcl-kdtree1.10, libpcl-keypoints1.10, libpcl-ml1.10, libpcl-octree1.10, libpcl-outofcore1.10, libpcl-people1.10, libpcl-recognition1.10, libpcl-registration1.10, libpcl-sample-consensus1.10, libpcl-search1.10, libpcl-segmentation1.10, libpcl-stereo1.10, libpcl-surface1.10, libpcl-tracking1.10, libpcl-visualization1.10]
     jammy: [libpcl-apps1.12, libpcl-common1.12, libpcl-features1.12, libpcl-filters1.12, libpcl-io1.12, libpcl-kdtree1.12, libpcl-keypoints1.12, libpcl-ml1.12, libpcl-octree1.12, libpcl-outofcore1.12, libpcl-people1.12, libpcl-recognition1.12, libpcl-registration1.12, libpcl-sample-consensus1.12, libpcl-search1.12, libpcl-segmentation1.12, libpcl-stereo1.12, libpcl-surface1.12, libpcl-tracking1.12, libpcl-visualization1.12]
-    noble: [libpcl-apps1.13, libpcl-common1.13, libpcl-features1.13, libpcl-filters1.13, libpcl-io1.13, libpcl-kdtree1.13, libpcl-keypoints1.13, libpcl-ml1.13, libpcl-octree1.13, libpcl-outofcore1.13, libpcl-people1.13, libpcl-recognition1.13, libpcl-registration1.13, libpcl-sample-consensus1.13, libpcl-search1.13, libpcl-segmentation1.13, libpcl-stereo1.13, libpcl-surface1.13, libpcl-tracking1.13, libpcl-visualization1.13]
+    noble: [libpcl-apps1.14, libpcl-common1.14, libpcl-features1.14, libpcl-filters1.14, libpcl-io1.14, libpcl-kdtree1.14, libpcl-keypoints1.14, libpcl-ml1.14, libpcl-octree1.14, libpcl-outofcore1.14, libpcl-people1.14, libpcl-recognition1.14, libpcl-registration1.14, libpcl-sample-consensus1.14, libpcl-search1.14, libpcl-segmentation1.14, libpcl-stereo1.14, libpcl-surface1.14, libpcl-tracking1.14, libpcl-visualization1.14]
 libpcl-all-dev:
   arch: [pcl]
   debian: [libpcl-dev]
@@ -4865,6 +4908,7 @@ libpcl-apps:
     bionic: [libpcl-apps1.8]
     focal: [libpcl-apps1.10]
     jammy: [libpcl-apps1.12]
+    noble: [libpcl-apps1.14]
 libpcl-common:
   alpine: [pcl-libs]
   debian:
@@ -4883,7 +4927,7 @@ libpcl-common:
     bionic: [libpcl-common1.8]
     focal: [libpcl-common1.10]
     jammy: [libpcl-common1.12]
-    noble: [libpcl-common1.13]
+    noble: [libpcl-common1.14]
 libpcl-features:
   alpine: [pcl-libs]
   debian:
@@ -4902,7 +4946,7 @@ libpcl-features:
     bionic: [libpcl-features1.8]
     focal: [libpcl-features1.10]
     jammy: [libpcl-features1.12]
-    noble: [libpcl-features1.13]
+    noble: [libpcl-features1.14]
 libpcl-filters:
   alpine: [pcl-libs]
   debian:
@@ -4921,7 +4965,7 @@ libpcl-filters:
     bionic: [libpcl-filters1.8]
     focal: [libpcl-filters1.10]
     jammy: [libpcl-filters1.12]
-    noble: [libpcl-filters1.13]
+    noble: [libpcl-filters1.14]
 libpcl-io:
   alpine: [pcl-libs]
   debian:
@@ -4940,7 +4984,7 @@ libpcl-io:
     bionic: [libpcl-io1.8]
     focal: [libpcl-io1.10]
     jammy: [libpcl-io1.12]
-    noble: [libpcl-io1.13]
+    noble: [libpcl-io1.14]
 libpcl-kdtree:
   alpine: [pcl-libs]
   debian:
@@ -4958,6 +5002,7 @@ libpcl-kdtree:
     bionic: [libpcl-kdtree1.8]
     focal: [libpcl-kdtree1.10]
     jammy: [libpcl-kdtree1.12]
+    noble: [libpcl-kdtree1.14]
 libpcl-keypoints:
   alpine: [pcl-libs]
   debian:
@@ -4975,6 +5020,7 @@ libpcl-keypoints:
     bionic: [libpcl-keypoints1.8]
     focal: [libpcl-keypoints1.10]
     jammy: [libpcl-keypoints1.12]
+    noble: [libpcl-keypoints1.14]
 libpcl-ml:
   alpine: [pcl-libs]
   debian:
@@ -4992,6 +5038,7 @@ libpcl-ml:
     bionic: [libpcl-ml1.8]
     focal: [libpcl-ml1.10]
     jammy: [libpcl-ml1.12]
+    noble: [libpcl-ml1.14]
 libpcl-octree:
   alpine: [pcl-libs]
   debian:
@@ -5009,6 +5056,7 @@ libpcl-octree:
     bionic: [libpcl-octree1.8]
     focal: [libpcl-octree1.10]
     jammy: [libpcl-octree1.12]
+    noble: [libpcl-octree1.14]
 libpcl-outofcore:
   alpine: [pcl-libs]
   debian:
@@ -5026,6 +5074,7 @@ libpcl-outofcore:
     bionic: [libpcl-outofcore1.8]
     focal: [libpcl-outofcore1.10]
     jammy: [libpcl-outofcore1.12]
+    noble: [libpcl-outofcore1.14]
 libpcl-people:
   alpine: [pcl-libs]
   debian:
@@ -5043,6 +5092,7 @@ libpcl-people:
     bionic: [libpcl-people1.8]
     focal: [libpcl-people1.10]
     jammy: [libpcl-people1.12]
+    noble: [libpcl-people1.14]
 libpcl-recognition:
   alpine: [pcl-libs]
   debian:
@@ -5060,6 +5110,7 @@ libpcl-recognition:
     bionic: [libpcl-recognition1.8]
     focal: [libpcl-recognition1.10]
     jammy: [libpcl-recognition1.12]
+    noble: [libpcl-recognition1.14]
 libpcl-registration:
   alpine: [pcl-libs]
   debian:
@@ -5077,6 +5128,7 @@ libpcl-registration:
     bionic: [libpcl-registration1.8]
     focal: [libpcl-registration1.10]
     jammy: [libpcl-registration1.12]
+    noble: [libpcl-registration1.14]
 libpcl-sample-consensus:
   alpine: [pcl-libs]
   debian:
@@ -5094,6 +5146,7 @@ libpcl-sample-consensus:
     bionic: [libpcl-sample-consensus1.8]
     focal: [libpcl-sample-consensus1.10]
     jammy: [libpcl-sample-consensus1.12]
+    noble: [libpcl-sample-consensus1.14]
 libpcl-search:
   alpine: [pcl-libs]
   debian:
@@ -5111,6 +5164,7 @@ libpcl-search:
     bionic: [libpcl-search1.8]
     focal: [libpcl-search1.10]
     jammy: [libpcl-search1.12]
+    noble: [libpcl-search1.14]
 libpcl-segmentation:
   alpine: [pcl-libs]
   debian:
@@ -5129,7 +5183,7 @@ libpcl-segmentation:
     bionic: [libpcl-segmentation1.8]
     focal: [libpcl-segmentation1.10]
     jammy: [libpcl-segmentation1.12]
-    noble: [libpcl-segmentation1.13]
+    noble: [libpcl-segmentation1.14]
 libpcl-stereo:
   alpine: [pcl-libs]
   debian:
@@ -5147,6 +5201,7 @@ libpcl-stereo:
     bionic: [libpcl-stereo1.8]
     focal: [libpcl-stereo1.10]
     jammy: [libpcl-stereo1.12]
+    noble: [libpcl-stereo1.14]
 libpcl-surface:
   alpine: [pcl-libs]
   debian:
@@ -5165,7 +5220,7 @@ libpcl-surface:
     bionic: [libpcl-surface1.8]
     focal: [libpcl-surface1.10]
     jammy: [libpcl-surface1.12]
-    noble: [libpcl-surface1.13]
+    noble: [libpcl-surface1.14]
 libpcl-tracking:
   alpine: [pcl-libs]
   debian:
@@ -5183,6 +5238,7 @@ libpcl-tracking:
     bionic: [libpcl-tracking1.8]
     focal: [libpcl-tracking1.10]
     jammy: [libpcl-tracking1.12]
+    noble: [libpcl-tracking1.14]
 libpcl-visualization:
   alpine: [pcl-libs]
   debian:
@@ -5200,6 +5256,7 @@ libpcl-visualization:
     bionic: [libpcl-visualization1.8]
     focal: [libpcl-visualization1.10]
     jammy: [libpcl-visualization1.12]
+    noble: [libpcl-visualization1.14]
 libpcsclite-dev:
   alpine: [pcsc-lite-dev]
   arch: [pcsclite]
@@ -5802,6 +5859,7 @@ libshaderc-dev:
     bullseye: null
   fedora: [libshaderc-devel]
   gentoo: [media-libs/shaderc]
+  nixos: [shaderc]
   opensuse: [shaderc-devel]
   rhel:
     '*': [libshaderc-devel]
@@ -6427,6 +6485,7 @@ libxinerama-dev:
 libxkbcommon-dev:
   debian: [libxkbcommon-dev]
   fedora: [libxkbcommon-devel]
+  nixos: [libxkbcommon]
   rhel: [libxkbcommon-devel]
   ubuntu: [libxkbcommon-dev]
 libxml++-2.6:
@@ -6554,17 +6613,25 @@ libzip-dev:
   debian: [libzip-dev]
   fedora: [libzip-devel]
   gentoo: [dev-libs/libzip]
+  nixos: [libzip]
   ubuntu: [libzip-dev]
 libzmq3-dev:
   arch: [zeromq]
-  debian: [libzmq3-dev]
+  debian:
+    '*': [libzmq3-dev, cppzmq-dev]
+    bullseye: [libzmq3-dev]
+    buster: [libzmq3-dev]
   fedora: [cppzmq-devel]
   gentoo: [net-libs/cppzmq]
   nixos: [cppzmq]
   openembedded: [zeromq@meta-oe]
   opensuse: [zeromq-devel]
   rhel: [cppzmq-devel]
-  ubuntu: [libzmq3-dev]
+  ubuntu:
+    '*': [libzmq3-dev, cppzmq-dev]
+    bionic: [libzmq3-dev]
+    focal: [libzmq3-dev]
+    jammy: [libzmq3-dev]
 libzmqpp-dev:
   ubuntu: [libzmqpp-dev]
 libzmqpp3:
@@ -7113,6 +7180,7 @@ ocl-icd-opencl-dev:
   debian: [ocl-icd-opencl-dev]
   fedora: [ocl-icd-devel]
   gentoo: [virtual/opencl]
+  nixos: [ocl-icd]
   rhel: [ocl-icd-devel]
   ubuntu: [ocl-icd-opencl-dev]
 octave:
@@ -7574,67 +7642,83 @@ qhull-bin:
   ubuntu: [qhull-bin]
 qml-module-qt-labs-folderlistmodel:
   debian: [qml-module-qt-labs-folderlistmodel]
+  nixos: [qt5.qtdeclarative]
   ubuntu: [qml-module-qt-labs-folderlistmodel]
 qml-module-qt-labs-platform:
   arch: [qt5-quickcontrols2]
   debian: [qml-module-qt-labs-platform]
   fedora: [qt5-qtquickcontrols2]
   gentoo: [dev-qt/qtquickcontrols2]
+  nixos: [qt5.qtquickcontrols2]
   ubuntu: [qml-module-qt-labs-platform]
 qml-module-qt-labs-settings:
   debian: [qml-module-qt-labs-settings]
+  nixos: [qt5.qtdeclarative]
   ubuntu: [qml-module-qt-labs-settings]
 qml-module-qtcharts:
   arch: [qt5-charts]
   debian: [qml-module-qtcharts]
   fedora: [qt5-qtcharts]
   gentoo: [dev-qt/qtcharts]
+  nixos: [qt5.qtcharts]
   ubuntu: [qml-module-qtcharts]
 qml-module-qtgraphicaleffects:
   debian: [qml-module-qtgraphicaleffects]
+  nixos: [qt5.qtgraphicaleffects]
   ubuntu: [qml-module-qtgraphicaleffects]
 qml-module-qtlocation:
   arch: [qt5-location]
   debian: [qml-module-qtlocation]
   fedora: [qt5-qtlocation]
   gentoo: [dev-qt/qtlocation]
+  nixos: [qt5.qtlocation]
   ubuntu: [qml-module-qtlocation]
 qml-module-qtmultimedia:
   debian: [qml-module-qtmultimedia]
+  nixos: [qt5.qtmultimedia]
   ubuntu: [qml-module-qtmultimedia]
 qml-module-qtpositioning:
   arch: [qt5-location]
   debian: [qml-module-qtpositioning]
   fedora: [qt5-qtlocation]
   gentoo: [dev-qt/qtpositioning]
+  nixos: [qt5.qtpositioning]
   ubuntu: [qml-module-qtpositioning]
 qml-module-qtquick-controls:
   debian: [qml-module-qtquick-controls]
   gentoo: [dev-qt/qtquickcontrols]
+  nixos: [qt5.qtquickcontrols]
   ubuntu: [qml-module-qtquick-controls]
 qml-module-qtquick-controls2:
   debian: [qml-module-qtquick-controls2]
+  nixos: [qt5.qtquickcontrols2]
   ubuntu: [qml-module-qtquick-controls2]
 qml-module-qtquick-dialogs:
   debian: [qml-module-qtquick-dialogs]
+  nixos: [qt5.qtquickcontrols]
   ubuntu: [qml-module-qtquick-dialogs]
 qml-module-qtquick-extras:
   debian: [qml-module-qtquick-extras]
   fedora: [qt5-qtquickcontrols]
   gentoo: [dev-qt/qtquickcontrols]
+  nixos: [qt5.qtquickcontrols]
   rhel: [qt5-qtquickcontrols]
   ubuntu: [qml-module-qtquick-extras]
 qml-module-qtquick-layouts:
   debian: [qml-module-qtquick-layouts]
+  nixos: [qt5.qtdeclarative]
   ubuntu: [qml-module-qtquick-layouts]
 qml-module-qtquick-templates2:
   debian: [qml-module-qtquick-templates2]
+  nixos: [qt5.qtquickcontrols2]
   ubuntu: [qml-module-qtquick-templates2]
 qml-module-qtquick-window2:
   debian: [qml-module-qtquick-window2]
+  nixos: [qt5.qtdeclarative]
   ubuntu: [qml-module-qtquick-window2]
 qml-module-qtquick2:
   debian: [qml-module-qtquick2]
+  nixos: [qt5.qtquickcontrols2]
   ubuntu: [qml-module-qtquick2]
 qrencode:
   arch: [qrencode]
@@ -7732,12 +7816,14 @@ qtmultimedia5-dev:
   ubuntu: [qtmultimedia5-dev]
 qtpositioning5-dev:
   debian: [qtpositioning5-dev]
+  nixos: [qt5.qtpositioning]
   ubuntu: [qtpositioning5-dev]
 qtquickcontrols2-5-dev:
   arch: [qt5-quickcontrols2]
   debian: [qtquickcontrols2-5-dev]
   fedora: [qt5-qtquickcontrols2]
   gentoo: [dev-qt/qtquickcontrols2]
+  nixos: [qt5.qtquickcontrols]
   ubuntu: [qtquickcontrols2-5-dev]
 qttools5-dev:
   debian: [qttools5-dev]
@@ -7816,6 +7902,19 @@ redis-server:
   gentoo: [dev-db/redis]
   nixos: [redis]
   ubuntu: [redis-server]
+robin-map-dev:
+  alpine: [robin-map]
+  arch: [robin-map]
+  debian: [robin-map-dev]
+  fedora: [robin-map-devel]
+  gentoo: [robin-map]
+  nixos: [robin-map]
+  opensuse: [robin-map-devel]
+  osx:
+    homebrew:
+      packages: [robin-map]
+  rhel: [robin-map-devel]
+  ubuntu: [robin-map-dev]
 robotino-api2:
   ubuntu: [robotino-api2]
 rsync:
@@ -8018,6 +8117,7 @@ simde:
     '*': [libsimde-dev]
     buster: null
   fedora: [simde-devel]
+  nixos: [simde]
   rhel:
     '*': [simde-devel]
     '9': null
@@ -8661,6 +8761,7 @@ wayland:
   arch: [wayland]
   debian: [libwayland-client0, libwayland-cursor0, libwayland-egl1]
   fedora: [libwayland-client, libwayland-cursor, libwayland-egl]
+  nixos: [wayland]
   openembedded: [wayland@openembedded-core]
   rhel: [libwayland-client, libwayland-cursor, libwayland-egl]
   ubuntu: [libwayland-client0, libwayland-cursor0, libwayland-egl1]
@@ -8668,6 +8769,7 @@ wayland-dev:
   arch: [wayland, wayland-protocols]
   debian: [libwayland-dev, wayland-protocols]
   fedora: [wayland-devel, wayland-protocols-devel]
+  nixos: [wayland]
   openembedded: [wayland@openembedded-core]
   rhel: [wayland-devel, wayland-protocols-devel]
   ubuntu: [libwayland-dev, wayland-protocols]
@@ -8895,6 +8997,7 @@ xvfb:
   fedora: [xorg-x11-server-Xvfb]
   gentoo: [x11-misc/xvfb-run]
   nixos: [xorg.xorgserver]
+  rhel: [xorg-x11-server-Xvfb]
   ubuntu: [xvfb]
 xz-utils:
   arch: [xz]
