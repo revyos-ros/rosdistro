@@ -5135,7 +5135,7 @@ repositories:
       - omni_base_navigation
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/pal-gbp/omni_base_navigation-release.git
+      url: https://github.com/revyos-ros/omni_base_navigation-release.git
       version: 2.0.7-1
     source:
       type: git
