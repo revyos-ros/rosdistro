@@ -1866,7 +1866,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/event_camera_py-release.git
+      url: https://github.com/revyos-ros/event_camera_py-release.git
       version: 1.1.6-1
     source:
       type: git
