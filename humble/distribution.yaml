@@ -4531,7 +4531,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/multiple_topic_monitor-release.git
+      url: https://github.com/revyos-ros/multiple_topic_monitor-release.git
       version: 1.0.2-1
     source:
       type: git
