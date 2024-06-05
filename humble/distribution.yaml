@@ -1065,7 +1065,7 @@ repositories:
       - clearpath_sensors_description
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/clearpath-gbp/clearpath_common-release.git
+      url: https://github.com/revyos-ros/clearpath_common-release.git
       version: 0.2.9-1
     source:
       type: git
