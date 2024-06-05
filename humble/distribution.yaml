@@ -4571,7 +4571,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/revyos-ros2/nao_button_sim-release.git
+      url: https://github.com/revyos-ros/nao_button_sim-release.git
       version: 0.1.2-2
     source:
       type: git
@@ -4589,7 +4589,7 @@ repositories:
       - nao_sensor_msgs
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/revyos-ros2/nao_interfaces-release.git
+      url: https://github.com/revyos-ros/nao_interfaces-release.git
       version: 0.0.5-2
     source:
       type: git
