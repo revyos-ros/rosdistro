@@ -5929,7 +5929,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros-gbp/py_binding_tools-release.git
+      url: https://github.com/revyos-ros/py_binding_tools-release.git
       version: 2.0.0-1
     source:
       type: git
