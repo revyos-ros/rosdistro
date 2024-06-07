@@ -1531,7 +1531,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/luxonis/depthai-core-release.git
+      url: https://github.com/revyos-ros/depthai-core-release.git
       version: 2.26.0-1
     source:
       test_pull_requests: true
