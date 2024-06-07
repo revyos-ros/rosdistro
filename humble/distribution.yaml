@@ -8692,7 +8692,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/situational_graphs_msgs-release.git
+      url: https://github.com/revyos-ros/situational_graphs_msgs-release.git
       version: 0.0.1-2
     source:
       type: git
