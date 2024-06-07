@@ -3734,7 +3734,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/AutonicsLiDAR-release/lsc_ros2_driver-release.git
+      url: https://github.com/revyos-ros/lsc_ros2_driver-release.git
       version: 1.0.2-1
     source:
       type: git
