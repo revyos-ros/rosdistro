@@ -3085,8 +3085,8 @@ repositories:
     release:
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/libyaml_vendor-release.git
-      version: 1.6.3-2
+      url: https://github.com/revyos-ros/libyaml_vendor-release.git
+      version: 1.6.3-3
     source:
       test_pull_requests: true
       type: git
