@@ -142,7 +142,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/revyos-ros/ament_cmake-release.git
-      version: 2.5.0-3
+      version: 2.5.0-4
     source:
       test_pull_requests: true
       type: git
