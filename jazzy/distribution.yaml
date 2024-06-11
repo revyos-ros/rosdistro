@@ -2015,8 +2015,8 @@ repositories:
     release:
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/grbl_msgs-release.git
-      version: 0.0.2-9
+      url: https://github.com/revyos-ros/grbl_msgs-release.git
+      version: 0.0.2-10
     source:
       type: git
       url: https://github.com/flynneva/grbl_msgs.git
