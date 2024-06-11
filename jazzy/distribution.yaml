@@ -3387,7 +3387,7 @@ repositories:
     release:
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/mimick_vendor-release.git
+      url: https://github.com/revyos-ros/mimick_vendor-release.git
       version: 0.6.1-2
     source:
       type: git
