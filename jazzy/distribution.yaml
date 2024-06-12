@@ -57,8 +57,8 @@ repositories:
     release:
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/actuator_msgs-release.git
-      version: 0.0.1-4
+      url: https://github.com/revyos-ros/actuator_msgs-release.git
+      version: 0.0.1-5
     source:
       type: git
       url: https://github.com/rudislabs/actuator_msgs.git
