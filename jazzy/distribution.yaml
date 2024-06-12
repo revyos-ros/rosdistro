@@ -5047,8 +5047,8 @@ repositories:
       - rcl_logging_spdlog
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/rcl_logging-release.git
-      version: 3.1.0-2
+      url: https://github.com/revyos-ros/rcl_logging-release.git
+      version: 3.1.0-3
     source:
       test_pull_requests: true
       type: git
