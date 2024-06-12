@@ -902,8 +902,8 @@ repositories:
     release:
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/color_util-release.git
-      version: 1.0.0-4
+      url: https://github.com/revyos-ros/color_util-release.git
+      version: 1.0.0-5
     source:
       test_pull_requests: true
       type: git
