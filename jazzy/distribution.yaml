@@ -5617,8 +5617,8 @@ repositories:
       - rmw_fastrtps_shared_cpp
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/rmw_fastrtps-release.git
-      version: 8.4.0-2
+      url: https://github.com/revyos-ros/rmw_fastrtps-release.git
+      version: 8.4.0-3
     source:
       test_pull_requests: true
       type: git
