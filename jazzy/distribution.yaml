@@ -8149,8 +8149,8 @@ repositories:
       - vision_opencv
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/vision_opencv-release.git
-      version: 4.0.0-2
+      url: https://github.com/revyos-ros/vision_opencv-release.git
+      version: 4.1.0-1
     source:
       test_pull_requests: true
       type: git
