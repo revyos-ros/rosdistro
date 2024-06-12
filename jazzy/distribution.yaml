@@ -3220,8 +3220,8 @@ repositories:
       - marti_visualization_msgs
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/marti_messages-release.git
-      version: 1.5.2-3
+      url: https://github.com/revyos-ros/marti_messages-release.git
+      version: 1.5.2-4
     source:
       test_pull_requests: true
       type: git
