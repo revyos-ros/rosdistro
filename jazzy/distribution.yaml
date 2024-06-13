@@ -8287,8 +8287,8 @@ repositories:
     release:
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/xacro-release.git
-      version: 2.0.11-2
+      url: https://github.com/revyos-ros/xacro-release.git
+      version: 2.0.11-3
     source:
       type: git
       url: https://github.com/ros/xacro.git
