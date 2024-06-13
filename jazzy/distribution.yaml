@@ -2843,8 +2843,8 @@ repositories:
       - launch_yaml
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/launch-release.git
-      version: 3.4.2-2
+      url: https://github.com/revyos-ros/launch-release.git
+      version: 3.4.2-3
     source:
       test_pull_requests: true
       type: git
