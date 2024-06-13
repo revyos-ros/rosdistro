@@ -4825,7 +4825,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/revyos-ros/qt_gui_core-release.git
-      version: 2.7.4-3
+      version: 2.7.4-4
     source:
       test_pull_requests: true
       type: git
