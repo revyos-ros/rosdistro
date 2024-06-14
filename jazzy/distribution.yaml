@@ -5246,8 +5246,8 @@ repositories:
       - resource_retriever
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/resource_retriever-release.git
-      version: 3.4.2-2
+      url: https://github.com/revyos-ros/resource_retriever-release.git
+      version: 3.4.2-3
     source:
       test_pull_requests: true
       type: git
