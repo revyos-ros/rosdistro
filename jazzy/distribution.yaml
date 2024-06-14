@@ -4266,8 +4266,8 @@ repositories:
       - ouxt_lint_common
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/ouxt_common-release.git
-      version: 0.0.8-5
+      url: https://github.com/revyos-ros/ouxt_common-release.git
+      version: 0.0.8-6
     source:
       type: git
       url: https://github.com/OUXT-Polaris/ouxt_common.git
