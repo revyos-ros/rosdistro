@@ -7874,8 +7874,8 @@ repositories:
       - urdf_parser_plugin
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/urdf-release.git
-      version: 2.10.0-3
+      url: https://github.com/revyos-ros/urdf-release.git
+      version: 2.10.0-4
     source:
       test_pull_requests: true
       type: git
