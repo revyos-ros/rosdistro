@@ -4426,8 +4426,8 @@ repositories:
     release:
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/picknik_ament_copyright-release.git
-      version: 0.0.2-5
+      url: https://github.com/revyos-ros/picknik_ament_copyright-release.git
+      version: 0.0.2-6
   picknik_controllers:
     doc:
       type: git
