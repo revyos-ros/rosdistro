@@ -4366,8 +4366,8 @@ repositories:
     release:
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/performance_test_fixture-release.git
-      version: 0.2.0-3
+      url: https://github.com/revyos-ros/performance_test_fixture-release.git
+      version: 0.2.0-4
     source:
       test_pull_requests: true
       type: git
