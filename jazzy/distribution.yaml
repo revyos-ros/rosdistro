@@ -335,8 +335,8 @@ repositories:
       - test_apex_test_tools
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/apex_test_tools-release.git
-      version: 0.0.2-9
+      url: https://github.com/revyos-ros/apex_test_tools-release.git
+      version: 0.0.2-10
     source:
       type: git
       url: https://gitlab.com/ApexAI/apex_test_tools.git
