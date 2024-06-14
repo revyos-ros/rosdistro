@@ -3780,8 +3780,8 @@ repositories:
       - nao_sensor_msgs
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/nao_interfaces-release.git
-      version: 1.0.0-3
+      url: https://github.com/revyos-ros/nao_interfaces-release.git
+      version: 1.0.0-4
     source:
       type: git
       url: https://github.com/ijnek/nao_interfaces.git
