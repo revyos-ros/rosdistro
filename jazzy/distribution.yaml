@@ -2668,8 +2668,8 @@ repositories:
     release:
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/kdl_parser-release.git
-      version: 2.11.0-3
+      url: https://github.com/revyos-ros/kdl_parser-release.git
+      version: 2.11.0-4
     source:
       test_pull_requests: true
       type: git
