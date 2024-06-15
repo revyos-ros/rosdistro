@@ -5734,8 +5734,8 @@ repositories:
       - lely_core_libraries
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/ros2_canopen-release.git
-      version: 0.2.9-2
+      url: https://github.com/revyos-ros/ros2_canopen-release.git
+      version: 0.2.12-1
     source:
       type: git
       url: https://github.com/ros-industrial/ros2_canopen.git
