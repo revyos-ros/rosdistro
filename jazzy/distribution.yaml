@@ -932,8 +932,8 @@ repositories:
       - visualization_msgs
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/common_interfaces-release.git
-      version: 5.3.5-1
+      url: https://github.com/revyos-ros/common_interfaces-release.git
+      version: 5.3.5-2
     source:
       test_pull_requests: true
       type: git
