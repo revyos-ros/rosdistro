@@ -5979,8 +5979,8 @@ repositories:
       - ros2launch_security_examples
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/ros2launch_security-release.git
-      version: 1.0.0-5
+      url: https://github.com/revyos-ros/ros2launch_security-release.git
+      version: 1.0.0-6
     source:
       test_pull_requests: true
       type: git
