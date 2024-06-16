@@ -1868,8 +1868,8 @@ repositories:
       - geographic_msgs
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/geographic_info-release.git
-      version: 1.0.6-2
+      url: https://github.com/revyos-ros/geographic_info-release.git
+      version: 1.0.6-3
     source:
       test_pull_requests: true
       type: git
