@@ -5228,8 +5228,8 @@ repositories:
     release:
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/realtime_tools-release.git
-      version: 2.5.0-4
+      url: https://github.com/revyos-ros/realtime_tools-release.git
+      version: 2.5.0-5
     source:
       type: git
       url: https://github.com/ros-controls/realtime_tools.git
