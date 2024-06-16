@@ -2804,8 +2804,8 @@ repositories:
     release:
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/laser_geometry-release.git
-      version: 2.7.0-3
+      url: https://github.com/revyos-ros/laser_geometry-release.git
+      version: 2.7.0-4
     source:
       test_pull_requests: true
       type: git
