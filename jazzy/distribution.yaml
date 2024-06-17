@@ -2936,8 +2936,8 @@ repositories:
       - leo_robot
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/leo_robot-release.git
-      version: 1.4.0-3
+      url: https://github.com/revyos-ros/leo_robot-release.git
+      version: 1.4.0-4
     source:
       type: git
       url: https://github.com/LeoRover/leo_robot-ros2.git
