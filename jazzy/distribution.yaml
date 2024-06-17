@@ -1129,8 +1129,8 @@ repositories:
       - self_test
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/diagnostics-release.git
-      version: 3.1.2-3
+      url: https://github.com/revyos-ros/diagnostics-release.git
+      version: 3.1.2-4
     source:
       test_pull_requests: true
       type: git
