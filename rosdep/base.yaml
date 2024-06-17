@@ -4579,6 +4579,7 @@ libogre-1.12-dev:
 libogre-dev:
   arch: [ogre-1.9]
   debian:
+    bookworm: [libogre-1.12-dev]
     buster: [libogre-1.9-dev]
     stretch: [libogre-1.9-dev]
     wheezy: [libogre-dev]
