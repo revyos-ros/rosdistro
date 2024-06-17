@@ -3165,8 +3165,8 @@ repositories:
       - marine_sensor_msgs
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/marine_msgs-release.git
-      version: 2.1.0-2
+      url: https://github.com/revyos-ros/marine_msgs-release.git
+      version: 2.1.0-3
     source:
       type: git
       url: https://github.com/apl-ocean-engineering/marine_msgs.git
