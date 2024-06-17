@@ -7344,8 +7344,8 @@ repositories:
     release:
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/teleop_twist_joy-release.git
-      version: 2.6.0-3
+      url: https://github.com/revyos-ros/teleop_twist_joy-release.git
+      version: 2.6.0-4
     source:
       test_pull_requests: true
       type: git
