@@ -2240,8 +2240,8 @@ repositories:
     release:
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/gz_rendering_vendor-release.git
-      version: 0.0.3-1
+      url: https://github.com/revyos-ros/gz_rendering_vendor-release.git
+      version: 0.0.3-2
     source:
       type: git
       url: https://github.com/gazebo-release/gz_rendering_vendor.git
