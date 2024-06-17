@@ -887,8 +887,8 @@ repositories:
     release:
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/color_names-release.git
-      version: 0.0.3-6
+      url: https://github.com/revyos-ros/color_names-release.git
+      version: 0.0.3-7
     source:
       type: git
       url: https://github.com/OUXT-Polaris/color_names-release.git
