@@ -6944,8 +6944,8 @@ repositories:
     release:
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/rviz_visual_tools-release.git
-      version: 4.1.4-4
+      url: https://github.com/revyos-ros/rviz_visual_tools-release.git
+      version: 4.1.4-5
     source:
       type: git
       url: https://github.com/PickNikRobotics/rviz_visual_tools.git
