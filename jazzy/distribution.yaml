@@ -434,8 +434,8 @@ repositories:
       - aruco_ros
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/pal-gbp/aruco_ros-release.git
-      version: 5.0.5-1
+      url: https://github.com/revyos-ros/aruco_ros-release.git
+      version: 5.0.5-2
     source:
       type: git
       url: https://github.com/pal-robotics/aruco_ros.git
