@@ -3335,8 +3335,8 @@ repositories:
       - micro_ros_diagnostic_msgs
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/micro_ros_diagnostics-release.git
-      version: 0.3.0-6
+      url: https://github.com/revyos-ros/micro_ros_diagnostics-release.git
+      version: 0.3.0-7
     source:
       type: git
       url: https://github.com/micro-ROS/micro_ros_diagnostics.git
