@@ -5993,8 +5993,8 @@ repositories:
       - can_msgs
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/ros_canopen-release.git
-      version: 2.0.0-6
+      url: https://github.com/revyos-ros/ros_canopen-release.git
+      version: 2.0.0-7
     source:
       type: git
       url: https://github.com/ros-industrial/ros_canopen.git
