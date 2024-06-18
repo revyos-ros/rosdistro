@@ -6845,8 +6845,8 @@ repositories:
       - rt_manipulators_examples
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/rt_manipulators_cpp-release.git
-      version: 1.0.0-4
+      url: https://github.com/revyos-ros/rt_manipulators_cpp-release.git
+      version: 1.0.0-5
     source:
       type: git
       url: https://github.com/rt-net/rt_manipulators_cpp.git
