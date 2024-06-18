@@ -1691,8 +1691,8 @@ repositories:
     release:
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/fluent_rviz-release.git
-      version: 0.0.3-5
+      url: https://github.com/revyos-ros/fluent_rviz-release.git
+      version: 0.0.3-6
     source:
       type: git
       url: https://github.com/ForteFibre/FluentRviz.git
