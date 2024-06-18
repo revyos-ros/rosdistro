@@ -5897,8 +5897,8 @@ repositories:
       - tracetools_trace
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/ros2_tracing-release.git
-      version: 8.2.0-2
+      url: https://github.com/revyos-ros/ros2_tracing-release.git
+      version: 8.2.0-3
     source:
       test_pull_requests: true
       type: git
