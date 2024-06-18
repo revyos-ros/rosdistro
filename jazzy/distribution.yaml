@@ -1646,8 +1646,8 @@ repositories:
     release:
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/find_object_2d-release.git
-      version: 0.7.0-6
+      url: https://github.com/revyos-ros/find_object_2d-release.git
+      version: 0.7.0-7
     source:
       type: git
       url: https://github.com/introlab/find-object.git
