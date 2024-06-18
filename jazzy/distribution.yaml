@@ -2967,8 +2967,8 @@ repositories:
     release:
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/lgsvl_msgs-release.git
-      version: 0.0.4-5
+      url: https://github.com/revyos-ros/lgsvl_msgs-release.git
+      version: 0.0.4-6
     source:
       type: git
       url: https://github.com/lgsvl/lgsvl_msgs.git
