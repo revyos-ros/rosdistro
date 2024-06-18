@@ -2513,8 +2513,8 @@ repositories:
       - zstd_image_transport
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/image_transport_plugins-release.git
-      version: 4.0.0-2
+      url: https://github.com/revyos-ros/image_transport_plugins-release.git
+      version: 4.0.0-3
     source:
       test_pull_requests: true
       type: git
