@@ -5946,7 +5946,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/revyos-ros/ros2cli-release.git
-      version: 0.32.1-1
+      version: 0.32.1-2
     source:
       test_pull_requests: true
       type: git
