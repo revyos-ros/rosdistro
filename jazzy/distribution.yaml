@@ -2820,8 +2820,8 @@ repositories:
     release:
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/laser_proc-release.git
-      version: 1.0.2-7
+      url: https://github.com/revyos-ros/laser_proc-release.git
+      version: 1.0.2-8
     source:
       test_pull_requests: true
       type: git
