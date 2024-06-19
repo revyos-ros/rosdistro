@@ -3371,8 +3371,8 @@ repositories:
       - microstrain_inertial_rqt
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/microstrain_inertial-release.git
-      version: 4.3.0-1
+      url: https://github.com/revyos-ros/microstrain_inertial-release.git
+      version: 4.3.0-2
     source:
       test_pull_requests: true
       type: git
