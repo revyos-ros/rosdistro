@@ -4469,8 +4469,8 @@ repositories:
     release:
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/plotjuggler-release.git
-      version: 3.9.2-1
+      url: https://github.com/revyos-ros/plotjuggler-release.git
+      version: 3.9.2-2
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
