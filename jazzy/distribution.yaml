@@ -2430,8 +2430,8 @@ repositories:
     release:
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/ifm3d-release.git
-      version: 0.18.0-10
+      url: https://github.com/revyos-ros/ifm3d-release.git
+      version: 0.18.0-11
     status: developed
   ign_rviz:
     doc:
