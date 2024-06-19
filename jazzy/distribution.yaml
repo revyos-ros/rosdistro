@@ -7763,8 +7763,8 @@ repositories:
       - ublox_ubx_msgs
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/ublox_dgnss-release.git
-      version: 0.5.3-2
+      url: https://github.com/revyos-ros/ublox_dgnss-release.git
+      version: 0.5.3-3
     source:
       type: git
       url: https://github.com/aussierobots/ublox_dgnss.git
