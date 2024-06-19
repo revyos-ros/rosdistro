@@ -6875,8 +6875,8 @@ repositories:
     release:
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/rtcm_msgs-release.git
-      version: 1.1.6-4
+      url: https://github.com/revyos-ros/rtcm_msgs-release.git
+      version: 1.1.6-5
     source:
       type: git
       url: https://github.com/tilk/rtcm_msgs.git
