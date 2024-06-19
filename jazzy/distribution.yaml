@@ -2533,8 +2533,8 @@ repositories:
       - imu_transformer
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/imu_pipeline-release.git
-      version: 0.5.0-3
+      url: https://github.com/revyos-ros/imu_pipeline-release.git
+      version: 0.5.0-4
     source:
       type: git
       url: https://github.com/ros-perception/imu_pipeline.git
