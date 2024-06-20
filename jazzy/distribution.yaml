@@ -3147,8 +3147,8 @@ repositories:
       - tile_map
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/mapviz-release.git
-      version: 2.3.0-3
+      url: https://github.com/revyos-ros/mapviz-release.git
+      version: 2.3.0-4
     source:
       type: git
       url: https://github.com/swri-robotics/mapviz.git
