@@ -7611,8 +7611,8 @@ repositories:
     release:
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/turbojpeg_compressed_image_transport-release.git
-      version: 0.2.1-5
+      url: https://github.com/revyos-ros/turbojpeg_compressed_image_transport-release.git
+      version: 0.2.1-6
     source:
       type: git
       url: https://github.com/wep21/turbojpeg_compressed_image_transport.git
