@@ -2388,8 +2388,8 @@ repositories:
     release:
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/hls_lfcd_lds_driver-release.git
-      version: 2.0.4-6
+      url: https://github.com/revyos-ros/hls_lfcd_lds_driver-release.git
+      version: 2.0.4-7
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/hls_lfcd_lds_driver.git
