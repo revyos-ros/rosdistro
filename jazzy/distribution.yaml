@@ -4199,8 +4199,8 @@ repositories:
     release:
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/osqp_vendor-release.git
-      version: 0.2.0-4
+      url: https://github.com/revyos-ros/osqp_vendor-release.git
+      version: 0.2.0-5
     source:
       type: git
       url: https://github.com/tier4/osqp_vendor.git
