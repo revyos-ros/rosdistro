@@ -6536,8 +6536,8 @@ repositories:
     release:
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/rqt_gauges-release.git
-      version: 0.0.3-2
+      url: https://github.com/revyos-ros/rqt_gauges-release.git
+      version: 0.0.3-3
     source:
       type: git
       url: https://github.com/ToyotaResearchInstitute/gauges2.git
