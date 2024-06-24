@@ -3579,8 +3579,8 @@ repositories:
       - moveit_resources_pr2_description
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/moveit_resources-release.git
-      version: 3.0.0-3
+      url: https://github.com/revyos-ros/moveit_resources-release.git
+      version: 3.0.0-4
     source:
       type: git
       url: https://github.com/ros-planning/moveit_resources.git
