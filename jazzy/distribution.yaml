@@ -2750,8 +2750,8 @@ repositories:
     release:
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/kobuki_velocity_smoother-release.git
-      version: 0.15.0-4
+      url: https://github.com/revyos-ros/kobuki_velocity_smoother-release.git
+      version: 0.15.0-5
     source:
       test_pull_requests: true
       type: git
