@@ -4531,8 +4531,8 @@ repositories:
     release:
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/point_cloud_msg_wrapper-release.git
-      version: 1.0.7-5
+      url: https://github.com/revyos-ros/point_cloud_msg_wrapper-release.git
+      version: 1.0.7-6
     source:
       type: git
       url: https://gitlab.com/ApexAI/point_cloud_msg_wrapper
