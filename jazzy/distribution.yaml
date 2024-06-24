@@ -3894,8 +3894,8 @@ repositories:
     release:
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/nmea_navsat_driver-release.git
-      version: 2.0.1-3
+      url: https://github.com/revyos-ros/nmea_navsat_driver-release.git
+      version: 2.0.1-4
     source:
       test_pull_requests: true
       type: git
