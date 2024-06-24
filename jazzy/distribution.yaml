@@ -7376,8 +7376,8 @@ repositories:
     release:
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/teleop_twist_keyboard-release.git
-      version: 2.4.0-2
+      url: https://github.com/revyos-ros/teleop_twist_keyboard-release.git
+      version: 2.4.0-3
     source:
       test_pull_requests: true
       type: git
