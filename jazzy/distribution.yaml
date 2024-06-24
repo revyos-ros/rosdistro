@@ -7956,8 +7956,8 @@ repositories:
     release:
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/urdfdom-release.git
-      version: 4.0.0-3
+      url: https://github.com/revyos-ros/urdfdom-release.git
+      version: 4.0.0-4
     source:
       test_pull_requests: true
       type: git
