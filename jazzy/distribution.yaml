@@ -2878,8 +2878,8 @@ repositories:
       - ros2launch
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/launch_ros-release.git
-      version: 0.26.5-2
+      url: https://github.com/revyos-ros/launch_ros-release.git
+      version: 0.26.5-3
     source:
       test_pull_requests: true
       type: git
