@@ -2596,8 +2596,8 @@ repositories:
     release:
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/irobot_create_msgs-release.git
-      version: 2.1.0-4
+      url: https://github.com/revyos-ros/irobot_create_msgs-release.git
+      version: 3.0.0-3
     source:
       type: git
       url: https://github.com/iRobotEducation/irobot_create_msgs.git
