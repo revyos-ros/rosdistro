@@ -6737,8 +6737,8 @@ repositories:
     release:
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/rqt_runtime_monitor-release.git
-      version: 1.0.0-5
+      url: https://github.com/revyos-ros/rqt_runtime_monitor-release.git
+      version: 1.0.0-6
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_runtime_monitor.git
