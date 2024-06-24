@@ -5598,8 +5598,8 @@ repositories:
     release:
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/rmw_dds_common-release.git
-      version: 3.1.0-2
+      url: https://github.com/revyos-ros/rmw_dds_common-release.git
+      version: 3.1.0-3
     source:
       test_pull_requests: true
       type: git
