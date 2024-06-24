@@ -5305,8 +5305,8 @@ repositories:
     release:
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/rmf_building_map_msgs-release.git
-      version: 1.4.0-3
+      url: https://github.com/revyos-ros/rmf_building_map_msgs-release.git
+      version: 1.4.1-2
     source:
       type: git
       url: https://github.com/open-rmf/rmf_building_map_msgs.git
