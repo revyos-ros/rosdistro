@@ -4587,8 +4587,8 @@ repositories:
     release:
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/point_cloud_transport_tutorial-release.git
-      version: 0.0.2-2
+      url: https://github.com/revyos-ros/point_cloud_transport_tutorial-release.git
+      version: 0.0.2-3
     source:
       test_pull_requests: true
       type: git
