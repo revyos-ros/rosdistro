@@ -4485,8 +4485,8 @@ repositories:
     release:
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/plotjuggler_msgs-release.git
-      version: 0.2.3-5
+      url: https://github.com/revyos-ros/plotjuggler_msgs-release.git
+      version: 0.2.3-6
     source:
       type: git
       url: https://github.com/facontidavide/plotjuggler_msgs.git
