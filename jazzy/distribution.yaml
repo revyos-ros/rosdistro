@@ -3948,8 +3948,8 @@ repositories:
       - novatel_gps_msgs
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/novatel_gps_driver-release.git
-      version: 4.1.2-5
+      url: https://github.com/revyos-ros/novatel_gps_driver-release.git
+      version: 4.1.2-6
     source:
       type: git
       url: https://github.com/swri-robotics/novatel_gps_driver.git
