@@ -6601,8 +6601,8 @@ repositories:
     release:
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/rqt_moveit-release.git
-      version: 1.0.1-5
+      url: https://github.com/revyos-ros/rqt_moveit-release.git
+      version: 1.0.1-6
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_moveit.git
