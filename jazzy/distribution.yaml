@@ -7238,8 +7238,8 @@ repositories:
       - sros2_cmake
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/sros2-release.git
-      version: 0.13.0-3
+      url: https://github.com/revyos-ros/sros2-release.git
+      version: 0.13.1-1
     source:
       test_pull_requests: true
       type: git
