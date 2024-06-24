@@ -7345,8 +7345,8 @@ repositories:
       - teleop_tools_msgs
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/teleop_tools-release.git
-      version: 1.5.0-3
+      url: https://github.com/revyos-ros/teleop_tools-release.git
+      version: 1.5.0-4
     source:
       type: git
       url: https://github.com/ros-teleop/teleop_tools.git
