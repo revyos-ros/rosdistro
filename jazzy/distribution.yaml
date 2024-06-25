@@ -7690,8 +7690,8 @@ repositories:
     release:
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/twist_mux-release.git
-      version: 4.3.0-3
+      url: https://github.com/revyos-ros/twist_mux-release.git
+      version: 4.3.0-4
     source:
       type: git
       url: https://github.com/ros-teleop/twist_mux.git
