@@ -4801,8 +4801,8 @@ repositories:
       - nerian_stereo
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/nerian-vision/nerian_stereo_ros2-release.git
-      version: 1.2.1-2
+      url: https://github.com/revyos-ros/nerian_stereo_ros2-release.git
+      version: 1.2.1-3
     source:
       type: git
       url: https://github.com/nerian-vision/nerian_stereo_ros2.git
