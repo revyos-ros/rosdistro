@@ -4603,8 +4603,8 @@ repositories:
     release:
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/pointcloud_to_laserscan-release.git
-      version: 2.0.2-3
+      url: https://github.com/revyos-ros/pointcloud_to_laserscan-release.git
+      version: 2.0.2-4
     source:
       test_pull_requests: true
       type: git
