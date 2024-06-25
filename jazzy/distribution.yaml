@@ -8288,7 +8288,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/revyos-ros/webots_ros2-release.git
-      version: 2023.1.2-5
+      version: 2023.1.2-6
     source:
       test_pull_requests: true
       type: git
