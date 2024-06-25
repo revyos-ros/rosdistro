@@ -8003,8 +8003,8 @@ repositories:
     release:
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/urg_node-release.git
-      version: 1.1.1-4
+      url: https://github.com/revyos-ros/urg_node-release.git
+      version: 1.1.1-5
     source:
       test_pull_requests: true
       type: git
