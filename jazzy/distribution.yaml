@@ -8260,8 +8260,8 @@ repositories:
     release:
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/warehouse_ros_sqlite-release.git
-      version: 1.0.3-4
+      url: https://github.com/revyos-ros/warehouse_ros_sqlite-release.git
+      version: 1.0.3-5
     source:
       type: git
       url: https://github.com/ros-planning/warehouse_ros_sqlite.git
