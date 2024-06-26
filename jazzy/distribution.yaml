@@ -7149,8 +7149,8 @@ repositories:
       - soccer_vision_attribute_msgs
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/soccer_interfaces-release.git
-      version: 1.0.0-2
+      url: https://github.com/revyos-ros/soccer_interfaces-release.git
+      version: 1.0.0-3
     source:
       type: git
       url: https://github.com/ros-sports/soccer_interfaces.git
