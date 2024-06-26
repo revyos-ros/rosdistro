@@ -4842,8 +4842,8 @@ repositories:
     release:
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/quaternion_operation-release.git
-      version: 0.0.7-5
+      url: https://github.com/revyos-ros/quaternion_operation-release.git
+      version: 0.0.12-1
     source:
       type: git
       url: https://github.com/OUXT-Polaris/quaternion_operation.git
