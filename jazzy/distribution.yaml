@@ -4714,8 +4714,8 @@ repositories:
     release:
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/py_trees_ros-release.git
-      version: 2.2.2-4
+      url: https://github.com/revyos-ros/py_trees_ros-release.git
+      version: 2.2.2-5
     source:
       test_pull_requests: true
       type: git
