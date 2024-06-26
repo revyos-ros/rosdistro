@@ -3236,8 +3236,8 @@ repositories:
     release:
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/mavlink-gbp-release.git
-      version: 2023.9.9-3
+      url: https://github.com/revyos-ros/mavlink-gbp-release.git
+      version: 2024.6.6-1
     source:
       type: git
       url: https://github.com/mavlink/mavlink-gbp-release.git
