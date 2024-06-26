@@ -4144,8 +4144,8 @@ repositories:
     release:
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/openni2_camera-release.git
-      version: 2.2.0-2
+      url: https://github.com/revyos-ros/openni2_camera-release.git
+      version: 2.2.0-3
     source:
       type: git
       url: https://github.com/ros-drivers/openni2_camera.git
