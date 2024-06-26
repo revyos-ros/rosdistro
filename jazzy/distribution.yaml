@@ -3484,7 +3484,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/revyos-ros/motion_capture_tracking-release.git
-      version: 1.0.5-1
+      version: 1.0.5-2
     source:
       type: git
       url: https://github.com/IMRCLab/motion_capture_tracking.git
