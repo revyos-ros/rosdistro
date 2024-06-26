@@ -4898,8 +4898,8 @@ repositories:
     release:
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/rc_common_msgs_ros2-release.git
-      version: 0.5.3-6
+      url: https://github.com/revyos-ros/rc_common_msgs_ros2-release.git
+      version: 0.5.3-7
     source:
       test_pull_requests: true
       type: git
