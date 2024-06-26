@@ -3594,8 +3594,8 @@ repositories:
     release:
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/moveit_visual_tools-release.git
-      version: 4.1.0-4
+      url: https://github.com/revyos-ros/moveit_visual_tools-release.git
+      version: 4.1.0-5
     source:
       type: git
       url: https://github.com/ros-planning/moveit_visual_tools.git
