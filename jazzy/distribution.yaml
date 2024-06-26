@@ -4010,8 +4010,8 @@ repositories:
       - octovis
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/octomap-release.git
-      version: 1.10.0-4
+      url: https://github.com/revyos-ros/octomap-release.git
+      version: 1.10.0-5
     source:
       type: git
       url: https://github.com/octomap/octomap.git
