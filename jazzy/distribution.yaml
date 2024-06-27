@@ -6708,8 +6708,8 @@ repositories:
     release:
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/rqt_robot_monitor-release.git
-      version: 1.0.6-1
+      url: https://github.com/revyos-ros/rqt_robot_monitor-release.git
+      version: 1.0.6-2
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_robot_monitor.git
