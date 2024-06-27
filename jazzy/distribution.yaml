@@ -1630,8 +1630,8 @@ repositories:
     release:
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/filters-release.git
-      version: 2.1.2-2
+      url: https://github.com/revyos-ros/filters-release.git
+      version: 2.1.2-3
     source:
       test_pull_requests: true
       type: git
