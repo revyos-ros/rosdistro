@@ -4170,7 +4170,7 @@ libjson0-dev:
   rhel: [json-c-devel]
   ubuntu: [libjson0-dev]
 libjsoncpp:
-  debian: [libjsoncpp1]
+  debian: [libjsoncpp25]
   fedora: [jsoncpp]
   gentoo: [dev-libs/jsoncpp]
   nixos: [jsoncpp]
