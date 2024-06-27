@@ -4441,8 +4441,8 @@ repositories:
       - picknik_twist_controller
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/picknik_controllers-release.git
-      version: 0.0.3-3
+      url: https://github.com/revyos-ros/picknik_controllers-release.git
+      version: 0.0.3-4
     source:
       type: git
       url: https://github.com/PickNikRobotics/picknik_controllers.git
