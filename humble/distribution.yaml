@@ -5153,7 +5153,7 @@ repositories:
       - omni_base_robot
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/pal-gbp/omni_base_robot-release.git
+      url: https://github.com/revyos-ros/omni_base_robot-release.git
       version: 2.0.9-1
     source:
       type: git
