@@ -2140,7 +2140,7 @@ repositories:
       - spinnaker_synchronized_camera_driver
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros-drivers-gbp/flir_camera_driver-release.git
+      url: https://github.com/revyos-ros/flir_camera_driver-release.git
       version: 2.1.17-1
     source:
       type: git
