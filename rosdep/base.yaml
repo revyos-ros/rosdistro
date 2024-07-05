@@ -4842,7 +4842,6 @@ libpaho-mqttpp:
 libpaho-mqttpp-dev:
   debian:
     '*': [libpaho-mqttpp-dev]
-    bullseye: null
   nixos: [paho-mqtt-cpp]
   openembedded: [paho-mqtt-cpp@meta-oe]
   ubuntu:
