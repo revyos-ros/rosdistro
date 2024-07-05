@@ -1919,6 +1919,8 @@ gz-sim3:
   ubuntu:
     focal: [libgz-sim3-dev]
 gz-sim6:
+  debian:
+    bullseye: [libgz-sim6-dev]
   ubuntu:
     focal: [libgz-sim6-dev]
     jammy: [libgz-sim6-dev]
