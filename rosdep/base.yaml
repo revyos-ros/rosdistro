@@ -1253,6 +1253,7 @@ gazebo:
     buster: [gazebo11]
     stretch: [gazebo9]
     bullseye: [gazebo11]
+    bookworm: [gazebo11]
   fedora: [gazebo]
   gentoo: [sci-electronics/gazebo]
   nixos: [gazebo]
