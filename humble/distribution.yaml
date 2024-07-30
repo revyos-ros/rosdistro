@@ -1481,7 +1481,7 @@ repositories:
       - ds_dbw_msgs
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/DataspeedInc-release/dbw_ros-release.git
+      url: https://github.com/revyos-ros/dbw_ros-release.git
       version: 2.1.10-1
     source:
       type: git
@@ -7485,7 +7485,7 @@ repositories:
       - can_msgs
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/ros_canopen-release.git
+      url: https://github.com/revyos-ros/ros_canopen-release.git
       version: 2.0.0-4
     source:
       type: git
@@ -7500,7 +7500,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/ros_environment-release.git
+      url: https://github.com/revyos-ros/ros_environment-release.git
       version: 3.2.2-1
     source:
       test_pull_requests: true
@@ -7545,7 +7545,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/ros_image_to_qimage-release.git
+      url: https://github.com/revyos-ros/ros_image_to_qimage-release.git
       version: 0.2.1-1
     source:
       type: git
@@ -7587,7 +7587,7 @@ repositories:
       - turtlesim
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/ros_tutorials-release.git
+      url: https://github.com/revyos-ros/ros_tutorials-release.git
       version: 1.4.2-1
     source:
       test_pull_requests: true
@@ -9029,7 +9029,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/sync_parameter_server-release.git
+      url: https://github.com/revyos-ros/sync_parameter_server-release.git
       version: 1.0.1-2
     source:
       test_pull_requests: true
@@ -10146,7 +10146,7 @@ repositories:
       - velodyne_simulator
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/velodyne_simulator-release.git
+      url: https://github.com/revyos-ros/velodyne_simulator-release.git
       version: 2.0.3-1
     source:
       type: git
@@ -10185,7 +10185,7 @@ repositories:
       - vision_msgs_rviz_plugins
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/vision_msgs-release.git
+      url: https://github.com/revyos-ros/vision_msgs-release.git
       version: 4.1.1-1
     source:
       test_pull_requests: true
@@ -10251,7 +10251,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/vitis_common-release.git
+      url: https://github.com/revyos-ros/vitis_common-release.git
       version: 0.4.2-2
     source:
       test_pull_requests: true
@@ -10294,7 +10294,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/vrpn_mocap-release.git
+      url: https://github.com/revyos-ros/vrpn_mocap-release.git
       version: 1.1.0-1
     source:
       type: git
@@ -10320,7 +10320,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/warehouse_ros-release.git
+      url: https://github.com/revyos-ros/warehouse_ros-release.git
       version: 2.0.4-3
     source:
       type: git
@@ -10349,7 +10349,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/warehouse_ros_sqlite-release.git
+      url: https://github.com/revyos-ros/warehouse_ros_sqlite-release.git
       version: 1.0.3-1
     source:
       type: git
