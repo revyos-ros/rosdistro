@@ -25,7 +25,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/acado_vendor-release.git
+      url: https://github.com/revyos-ros/acado_vendor-release.git
       version: 1.0.0-4
     source:
       type: git
@@ -82,7 +82,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/adi_tmcl-release.git
+      url: https://github.com/revyos-ros/adi_tmcl-release.git
       version: 2.0.0-1
     source:
       type: git
@@ -134,7 +134,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/PickNikRobotics/affordance_primitives-release.git
+      url: https://github.com/revyos-ros/affordance_primitives-release.git
       version: 0.1.0-3
     source:
       type: git
@@ -1328,7 +1328,7 @@ repositories:
       - crane_plus_moveit_config
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/crane_plus-release.git
+      url: https://github.com/revyos-ros/crane_plus-release.git
       version: 2.0.1-1
     source:
       type: git
@@ -6403,7 +6403,7 @@ repositories:
       - test_msgs
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/rcl_interfaces-release.git
+      url: https://github.com/revyos-ros/rcl_interfaces-release.git
       version: 1.2.1-1
     source:
       test_pull_requests: true
@@ -6423,7 +6423,7 @@ repositories:
       - rcl_logging_spdlog
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/rcl_logging-release.git
+      url: https://github.com/revyos-ros/rcl_logging-release.git
       version: 2.3.1-1
     source:
       test_pull_requests: true
@@ -10446,7 +10446,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/modular-ml/wrapyfi_ros2_interfaces-release.git
+      url: https://github.com/revyos-ros/wrapyfi_ros2_interfaces-release.git
       version: 0.4.30-1
     source:
       type: git
@@ -10461,7 +10461,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/xacro-release.git
+      url: https://github.com/revyos-ros/xacro-release.git
       version: 2.0.8-1
     source:
       type: git
@@ -10472,7 +10472,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/yaml_cpp_vendor-release.git
+      url: https://github.com/revyos-ros/yaml_cpp_vendor-release.git
       version: 8.0.2-1
     source:
       test_pull_requests: true
