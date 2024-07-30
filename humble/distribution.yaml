@@ -13,7 +13,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/aandd_ekew_driver_py-release.git
+      url: https://github.com/revyos-ros/aandd_ekew_driver_py-release.git
       version: 0.0.2-3
     source:
       test_pull_requests: true
@@ -419,7 +419,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/apex_containers-release.git
+      url: https://github.com/revyos-ros/apex_containers-release.git
       version: 0.0.4-3
     source:
       type: git
@@ -437,7 +437,7 @@ repositories:
       - test_apex_test_tools
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/apex_test_tools-release.git
+      url: https://github.com/revyos-ros/apex_test_tools-release.git
       version: 0.0.2-6
     source:
       type: git
@@ -570,7 +570,7 @@ repositories:
       - neobotix_usboard_msgs
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/astuff_sensor_msgs-release.git
+      url: https://github.com/revyos-ros/astuff_sensor_msgs-release.git
       version: 4.0.0-1
     source:
       type: git
@@ -1292,7 +1292,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/control_toolbox-release.git
+      url: https://github.com/revyos-ros/control_toolbox-release.git
       version: 3.2.0-1
     source:
       type: git
@@ -1306,7 +1306,7 @@ repositories:
       - tl_expected
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/cpp_polyfills-release.git
+      url: https://github.com/revyos-ros/cpp_polyfills-release.git
       version: 1.0.2-2
     source:
       type: git
@@ -1394,7 +1394,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/cudnn_cmake_module-release.git
+      url: https://github.com/revyos-ros/cudnn_cmake_module-release.git
       version: 0.0.1-3
     source:
       type: git
@@ -1405,7 +1405,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/cyclonedds-release.git
+      url: https://github.com/revyos-ros/cyclonedds-release.git
       version: 0.10.4-1
     source:
       type: git
@@ -1423,7 +1423,7 @@ repositories:
       - data_tamer_msgs
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/data_tamer-release.git
+      url: https://github.com/revyos-ros/data_tamer-release.git
       version: 0.9.4-1
     source:
       type: git
@@ -1596,7 +1596,7 @@ repositories:
       - self_test
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/diagnostics-release.git
+      url: https://github.com/revyos-ros/diagnostics-release.git
       version: 3.1.2-1
     source:
       test_pull_requests: true
@@ -1617,7 +1617,7 @@ repositories:
       - dolly_ignition
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/dolly-release.git
+      url: https://github.com/revyos-ros/dolly-release.git
       version: 0.4.0-3
     source:
       test_pull_requests: true
@@ -1633,7 +1633,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/domain_bridge-release.git
+      url: https://github.com/revyos-ros/domain_bridge-release.git
       version: 0.5.0-1
     source:
       test_pull_requests: true
@@ -1663,7 +1663,7 @@ repositories:
       - dynamixel_sdk_examples
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/dynamixel_sdk-release.git
+      url: https://github.com/revyos-ros/dynamixel_sdk-release.git
       version: 3.7.60-1
     source:
       type: git
@@ -1681,7 +1681,7 @@ repositories:
       - dynamixel_workbench_toolbox
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/dynamixel_workbench-release.git
+      url: https://github.com/revyos-ros/dynamixel_workbench-release.git
       version: 2.2.3-1
     source:
       type: git
@@ -1696,7 +1696,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/dynamixel_workbench_msgs-release.git
+      url: https://github.com/revyos-ros/dynamixel_workbench_msgs-release.git
       version: 2.0.3-1
     source:
       type: git
@@ -1711,7 +1711,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/ecal-release.git
+      url: https://github.com/revyos-ros/ecal-release.git
       version: 5.12.0-3
     source:
       type: git
@@ -1730,7 +1730,7 @@ repositories:
       - ecl_tools
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/ecl_tools-release.git
+      url: https://github.com/revyos-ros/ecl_tools-release.git
       version: 1.0.3-2
     source:
       type: git
@@ -1745,7 +1745,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/eigen3_cmake_module-release.git
+      url: https://github.com/revyos-ros/eigen3_cmake_module-release.git
       version: 0.1.1-4
     source:
       type: git
@@ -1760,7 +1760,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/eigen_stl_containers-release.git
+      url: https://github.com/revyos-ros/eigen_stl_containers-release.git
       version: 1.0.0-4
     source:
       test_pull_requests: true
@@ -1776,7 +1776,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/eigenpy-release.git
+      url: https://github.com/revyos-ros/eigenpy-release.git
       version: 3.1.4-1
     source:
       type: git
@@ -1791,7 +1791,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/ess_imu_driver2-release.git
+      url: https://github.com/revyos-ros/ess_imu_driver2-release.git
       version: 1.0.1-1
     source:
       type: git
@@ -1835,7 +1835,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/event_camera_codecs-release.git
+      url: https://github.com/revyos-ros/event_camera_codecs-release.git
       version: 1.1.3-1
     source:
       type: git
@@ -1880,7 +1880,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/event_camera_renderer-release.git
+      url: https://github.com/revyos-ros/event_camera_renderer-release.git
       version: 1.1.3-1
     source:
       type: git
@@ -1979,7 +1979,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/fastcdr-release.git
+      url: https://github.com/revyos-ros/fastcdr-release.git
       version: 1.0.24-2
     source:
       test_commits: false
@@ -2024,7 +2024,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/ffmpeg_image_transport_msgs-release.git
+      url: https://github.com/revyos-ros/ffmpeg_image_transport_msgs-release.git
       version: 1.1.2-1
     source:
       type: git
@@ -2070,7 +2070,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/filters-release.git
+      url: https://github.com/revyos-ros/filters-release.git
       version: 2.1.0-3
     source:
       test_pull_requests: true
@@ -2086,7 +2086,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/find_object_2d-release.git
+      url: https://github.com/revyos-ros/find_object_2d-release.git
       version: 0.7.0-1
     source:
       type: git
@@ -2157,7 +2157,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/fluent_rviz-release.git
+      url: https://github.com/revyos-ros/fluent_rviz-release.git
       version: 0.0.3-2
     source:
       type: git
@@ -2175,7 +2175,7 @@ repositories:
       - fmi_adapter_examples
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/fmi_adapter-release.git
+      url: https://github.com/revyos-ros/fmi_adapter-release.git
       version: 2.1.1-1
     source:
       type: git
@@ -2186,7 +2186,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/fmilibrary_vendor-release.git
+      url: https://github.com/revyos-ros/fmilibrary_vendor-release.git
       version: 1.0.1-1
     source:
       type: git
@@ -2200,7 +2200,7 @@ repositories:
       - fogros2_examples
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/fogros2-release.git
+      url: https://github.com/revyos-ros/fogros2-release.git
       version: 0.1.7-1
     source:
       type: git
@@ -2211,7 +2211,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/foonathan_memory_vendor-release.git
+      url: https://github.com/revyos-ros/foonathan_memory_vendor-release.git
       version: 1.2.0-3
     source:
       type: git
@@ -2242,7 +2242,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/four_wheel_steering_msgs-release.git
+      url: https://github.com/revyos-ros/four_wheel_steering_msgs-release.git
       version: 2.0.1-3
     source:
       type: git
@@ -2272,7 +2272,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/ros_foxglove_msgs-release.git
+      url: https://github.com/revyos-ros/ros_foxglove_msgs-release.git
       version: 2.3.0-1
     source:
       type: git
@@ -2312,7 +2312,7 @@ repositories:
       - rcgcrd_spl_4_conversion
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/game_controller_spl-release.git
+      url: https://github.com/revyos-ros/game_controller_spl-release.git
       version: 2.1.0-1
     source:
       type: git
@@ -2330,7 +2330,7 @@ repositories:
       - gazebo_model_attachment_plugin_msgs
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/boeing_gazebo_model_attachement_plugin-release.git
+      url: https://github.com/revyos-ros/boeing_gazebo_model_attachement_plugin-release.git
       version: 1.0.3-2
     source:
       type: git
@@ -2345,7 +2345,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/gazebo_no_physics_plugin-release.git
+      url: https://github.com/revyos-ros/gazebo_no_physics_plugin-release.git
       version: 0.1.1-2
     source:
       type: git
@@ -2360,7 +2360,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/gazebo_planar_move_plugin-release.git
+      url: https://github.com/revyos-ros/gazebo_planar_move_plugin-release.git
       version: 1.0.2-1
     source:
       type: git
@@ -2415,7 +2415,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/gazebo_set_joint_positions_plugin-release.git
+      url: https://github.com/revyos-ros/gazebo_set_joint_positions_plugin-release.git
       version: 1.0.3-1
     source:
       type: git
@@ -2435,7 +2435,7 @@ repositories:
       - gazebo_video_monitors
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/gazebo_video_monitors-release.git
+      url: https://github.com/revyos-ros/gazebo_video_monitors-release.git
       version: 0.8.1-1
     source:
       type: git
@@ -2457,7 +2457,7 @@ repositories:
       - parameter_traits
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/generate_parameter_library-release.git
+      url: https://github.com/revyos-ros/generate_parameter_library-release.git
       version: 0.3.8-3
     source:
       type: git
@@ -2476,7 +2476,7 @@ repositories:
       - geographic_msgs
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/geographic_info-release.git
+      url: https://github.com/revyos-ros/geographic_info-release.git
       version: 1.0.6-1
     source:
       test_pull_requests: true
@@ -2492,7 +2492,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/geometric_shapes-release.git
+      url: https://github.com/revyos-ros/geometric_shapes-release.git
       version: 2.1.3-2
     source:
       type: git
@@ -2542,7 +2542,7 @@ repositories:
       - turtle_tf2_py
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/geometry_tutorials-release.git
+      url: https://github.com/revyos-ros/geometry_tutorials-release.git
       version: 0.3.6-1
     source:
       type: git
@@ -2557,7 +2557,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/google_benchmark_vendor-release.git
+      url: https://github.com/revyos-ros/google_benchmark_vendor-release.git
       version: 0.1.2-1
     source:
       test_pull_requests: true
@@ -2572,7 +2572,7 @@ repositories:
       - gtest_vendor
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/googletest-release.git
+      url: https://github.com/revyos-ros/googletest-release.git
       version: 1.10.9004-4
     source:
       type: git
@@ -2608,7 +2608,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/graph_msgs-release.git
+      url: https://github.com/revyos-ros/graph_msgs-release.git
       version: 0.2.0-3
     source:
       type: git
@@ -2623,7 +2623,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/mikeferguson/grasping_msgs-ros2-gbp.git
+      url: https://github.com/mikeferguson/grasping_msgs-revyos-ros.git
       version: 0.4.0-1
     source:
       type: git
@@ -2638,7 +2638,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/grbl_msgs-release.git
+      url: https://github.com/revyos-ros/grbl_msgs-release.git
       version: 0.0.2-6
     source:
       type: git
@@ -2653,7 +2653,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/grbl_ros-release.git
+      url: https://github.com/revyos-ros/grbl_ros-release.git
       version: 0.0.16-4
     source:
       type: git
@@ -2724,7 +2724,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/gtsam-release.git
+      url: https://github.com/revyos-ros/gtsam-release.git
       version: 4.2.0-2
     source:
       type: git
@@ -2754,7 +2754,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/heaphook-release.git
+      url: https://github.com/revyos-ros/heaphook-release.git
       version: 0.1.1-1
     source:
       type: git
@@ -2794,7 +2794,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/hls_lfcd_lds_driver-release.git
+      url: https://github.com/revyos-ros/hls_lfcd_lds_driver-release.git
       version: 2.0.4-3
     source:
       type: git
@@ -2819,7 +2819,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/hpp_fcl-release.git
+      url: https://github.com/revyos-ros/hpp_fcl-release.git
       version: 2.4.0-1
     source:
       type: git
@@ -2883,7 +2883,7 @@ repositories:
       - iceoryx_posh
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/iceoryx-release.git
+      url: https://github.com/revyos-ros/iceoryx-release.git
       version: 2.0.5-1
     source:
       type: git
@@ -2894,7 +2894,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/ifm3d-release.git
+      url: https://github.com/revyos-ros/ifm3d-release.git
       version: 0.18.0-7
     status: developed
   ign_ros2_control:
@@ -2927,7 +2927,7 @@ repositories:
       - ign_rviz_plugins
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/ign_rviz-release.git
+      url: https://github.com/revyos-ros/ign_rviz-release.git
     source:
       test_pull_requests: true
       type: git
@@ -2979,7 +2979,7 @@ repositories:
       - image_transport
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/image_common-release.git
+      url: https://github.com/revyos-ros/image_common-release.git
       version: 3.1.9-1
     source:
       test_pull_requests: true
@@ -3005,7 +3005,7 @@ repositories:
       - tracetools_image_pipeline
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/image_pipeline-release.git
+      url: https://github.com/revyos-ros/image_pipeline-release.git
       version: 3.0.4-1
     source:
       test_pull_requests: true
@@ -3046,7 +3046,7 @@ repositories:
       - imu_transformer
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/imu_pipeline-release.git
+      url: https://github.com/revyos-ros/imu_pipeline-release.git
       version: 0.4.1-1
     source:
       type: git
@@ -3097,7 +3097,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/interactive_markers-release.git
+      url: https://github.com/revyos-ros/interactive_markers-release.git
       version: 2.3.2-2
     source:
       test_pull_requests: true
@@ -3109,7 +3109,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/irobot_create_msgs-release.git
+      url: https://github.com/revyos-ros/irobot_create_msgs-release.git
       version: 2.1.0-1
     source:
       type: git
@@ -3126,7 +3126,7 @@ repositories:
       - joint_state_publisher_gui
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/joint_state_publisher-release.git
+      url: https://github.com/revyos-ros/joint_state_publisher-release.git
       version: 2.4.0-1
     source:
       test_pull_requests: true
@@ -3142,7 +3142,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/joy_tester-release.git
+      url: https://github.com/revyos-ros/joy_tester-release.git
       version: 0.0.2-1
     source:
       type: git
@@ -3164,7 +3164,7 @@ repositories:
       - wiimote_msgs
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/joystick_drivers-release.git
+      url: https://github.com/revyos-ros/joystick_drivers-release.git
       version: 3.3.0-1
     source:
       test_pull_requests: true
@@ -3180,7 +3180,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/kdl_parser-release.git
+      url: https://github.com/revyos-ros/kdl_parser-release.git
       version: 2.6.4-1
     source:
       test_pull_requests: true
@@ -3196,7 +3196,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/keyboard_handler-release.git
+      url: https://github.com/revyos-ros/keyboard_handler-release.git
       version: 0.0.5-1
     source:
       test_pull_requests: true
@@ -3215,7 +3215,7 @@ repositories:
       - kinematics_interface_kdl
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/kinematics_interface-release.git
+      url: https://github.com/revyos-ros/kinematics_interface-release.git
       version: 0.3.0-1
     source:
       type: git
@@ -3230,7 +3230,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/kobuki_ros_interfaces-release.git
+      url: https://github.com/revyos-ros/kobuki_ros_interfaces-release.git
       version: 1.0.0-1
     source:
       test_pull_requests: true
@@ -3246,7 +3246,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/kobuki_velocity_smoother-release.git
+      url: https://github.com/revyos-ros/kobuki_velocity_smoother-release.git
       version: 0.15.0-1
     source:
       test_pull_requests: true
@@ -3275,7 +3275,7 @@ repositories:
       - kuka_external_control_sdk_examples
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/kuka_external_control_sdk-release.git
+      url: https://github.com/revyos-ros/kuka_external_control_sdk-release.git
       version: 1.3.1-1
     source:
       type: git
@@ -3342,7 +3342,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/laser_filters-release.git
+      url: https://github.com/revyos-ros/laser_filters-release.git
       version: 2.0.7-1
     source:
       type: git
@@ -3357,7 +3357,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/laser_geometry-release.git
+      url: https://github.com/revyos-ros/laser_geometry-release.git
       version: 2.4.0-2
     source:
       test_pull_requests: true
@@ -3373,7 +3373,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/laser_proc-release.git
+      url: https://github.com/revyos-ros/laser_proc-release.git
       version: 1.0.2-5
     source:
       test_pull_requests: true
@@ -3433,7 +3433,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/launch_param_builder-release.git
+      url: https://github.com/revyos-ros/launch_param_builder-release.git
       version: 0.1.1-1
     source:
       type: git
@@ -3452,7 +3452,7 @@ repositories:
       - ros2launch
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/launch_ros-release.git
+      url: https://github.com/revyos-ros/launch_ros-release.git
       version: 0.19.7-2
     source:
       test_pull_requests: true
@@ -3491,7 +3491,7 @@ repositories:
       - leo_viz
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/leo_desktop-release.git
+      url: https://github.com/revyos-ros/leo_desktop-release.git
       version: 1.1.0-1
     source:
       type: git
@@ -3510,7 +3510,7 @@ repositories:
       - leo_robot
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/leo_robot-release.git
+      url: https://github.com/revyos-ros/leo_robot-release.git
       version: 1.4.0-1
     source:
       type: git
@@ -3530,7 +3530,7 @@ repositories:
       - leo_simulator
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/leo_simulator-release.git
+      url: https://github.com/revyos-ros/leo_simulator-release.git
       version: 1.1.0-1
     source:
       type: git
@@ -3541,7 +3541,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/lgsvl_msgs-release.git
+      url: https://github.com/revyos-ros/lgsvl_msgs-release.git
       version: 0.0.4-3
     source:
       type: git
@@ -3555,7 +3555,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/libcaer-release.git
+      url: https://github.com/revyos-ros/libcaer-release.git
       version: 1.1.2-2
     source:
       type: git
@@ -3585,7 +3585,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/libcaer_vendor-release.git
+      url: https://github.com/revyos-ros/libcaer_vendor-release.git
       version: 1.1.0-2
     source:
       type: git
@@ -3596,7 +3596,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/libcamera-release.git
+      url: https://github.com/revyos-ros/libcamera-release.git
       version: 0.1.0-1
     source:
       type: git
@@ -3622,7 +3622,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/libg2o-release.git
+      url: https://github.com/revyos-ros/libg2o-release.git
       version: 2020.5.29-4
     status: maintained
   libnabo:
@@ -3633,7 +3633,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/libnabo-release.git
+      url: https://github.com/revyos-ros/libnabo-release.git
       version: 1.0.7-3
     source:
       type: git
@@ -3648,7 +3648,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/libpointmatcher-release.git
+      url: https://github.com/revyos-ros/libpointmatcher-release.git
       version: 1.3.1-3
     source:
       type: git
@@ -3689,7 +3689,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/libyaml_vendor-release.git
+      url: https://github.com/revyos-ros/libyaml_vendor-release.git
       version: 1.2.2-2
     source:
       test_pull_requests: true
@@ -3722,7 +3722,7 @@ repositories:
       - bosch_locator_bridge
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/locator_ros_bridge-release.git
+      url: https://github.com/revyos-ros/locator_ros_bridge-release.git
       version: 2.1.5-1
     source:
       type: git
@@ -3767,7 +3767,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/magic_enum-release.git
+      url: https://github.com/revyos-ros/magic_enum-release.git
       version: 0.9.5-1
     source:
       type: git
@@ -3788,7 +3788,7 @@ repositories:
       - tile_map
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/mapviz-release.git
+      url: https://github.com/revyos-ros/mapviz-release.git
       version: 2.2.1-1
     source:
       type: git
@@ -3806,7 +3806,7 @@ repositories:
       - marine_sensor_msgs
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/marine_msgs-release.git
+      url: https://github.com/revyos-ros/marine_msgs-release.git
       version: 2.1.0-1
     source:
       type: git
@@ -3850,7 +3850,7 @@ repositories:
       - swri_transform_util
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/marti_common-release.git
+      url: https://github.com/revyos-ros/marti_common-release.git
       version: 3.6.1-1
     source:
       test_pull_requests: true
@@ -3876,7 +3876,7 @@ repositories:
       - marti_visualization_msgs
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/marti_messages-release.git
+      url: https://github.com/revyos-ros/marti_messages-release.git
       version: 1.5.2-1
     source:
       test_pull_requests: true
@@ -3905,16 +3905,16 @@ repositories:
   mavlink:
     doc:
       type: git
-      url: https://github.com/ros2-gbp/mavlink-gbp-release.git
+      url: https://github.com/revyos-ros/mavlink-gbp-release.git
       version: release/humble/mavlink
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/mavlink-gbp-release.git
+      url: https://github.com/revyos-ros/mavlink-gbp-release.git
       version: 2024.3.3-1
     source:
       type: git
-      url: https://github.com/ros2-gbp/mavlink-gbp-release.git
+      url: https://github.com/revyos-ros/mavlink-gbp-release.git
       version: release/humble/mavlink
     status: developed
   mavros:
@@ -3945,7 +3945,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/menge_vendor-release.git
+      url: https://github.com/revyos-ros/menge_vendor-release.git
       version: 1.0.1-1
     source:
       type: git
@@ -3976,7 +3976,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/message_tf_frame_transformer-release.git
+      url: https://github.com/revyos-ros/message_tf_frame_transformer-release.git
       version: 1.1.1-1
     source:
       type: git
@@ -3991,7 +3991,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/metavision_driver-release.git
+      url: https://github.com/revyos-ros/metavision_driver-release.git
       version: 1.1.8-1
     source:
       type: git
@@ -4010,7 +4010,7 @@ repositories:
       - metro_benchmark_pub
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/metrics_msgs-release.git
+      url: https://github.com/revyos-ros/metrics_msgs-release.git
       version: 0.1.1-1
     source:
       type: git
@@ -4034,7 +4034,7 @@ repositories:
       - base2d_kinematics_msgs
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/metro_nav-release.git
+      url: https://github.com/revyos-ros/metro_nav-release.git
       version: 0.2.0-1
     source:
       type: git
@@ -4052,7 +4052,7 @@ repositories:
       - micro_ros_diagnostic_msgs
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/micro_ros_diagnostics-release.git
+      url: https://github.com/revyos-ros/micro_ros_diagnostics-release.git
       version: 0.3.0-4
     source:
       type: git
@@ -4067,7 +4067,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/micro_ros_msgs-release.git
+      url: https://github.com/revyos-ros/micro_ros_msgs-release.git
       version: 1.0.0-3
     source:
       type: git
@@ -4170,7 +4170,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/mocap_optitrack-release.git
+      url: https://github.com/revyos-ros/mocap_optitrack-release.git
       version: 1.0.0-3
     source:
       type: git
@@ -4267,7 +4267,7 @@ repositories:
       - motion_capture_tracking_interfaces
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/motion_capture_tracking-release.git
+      url: https://github.com/revyos-ros/motion_capture_tracking-release.git
       version: 1.0.5-1
     source:
       type: git
@@ -4321,7 +4321,7 @@ repositories:
       - pilz_industrial_motion_planner_testutils
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/moveit2-release.git
+      url: https://github.com/revyos-ros/moveit2-release.git
       version: 2.5.5-1
     source:
       test_commits: false
@@ -4338,7 +4338,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/moveit_msgs-release.git
+      url: https://github.com/revyos-ros/moveit_msgs-release.git
       version: 2.2.1-1
     source:
       type: git
@@ -4375,7 +4375,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/moveit_visual_tools-release.git
+      url: https://github.com/revyos-ros/moveit_visual_tools-release.git
       version: 4.1.0-1
     source:
       type: git
@@ -4438,7 +4438,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/mrpt_msgs-release.git
+      url: https://github.com/revyos-ros/mrpt_msgs-release.git
       version: 0.4.7-1
     source:
       type: git
@@ -4603,7 +4603,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/nao_lola-release.git
+      url: https://github.com/revyos-ros/nao_lola-release.git
       version: 0.1.3-1
     source:
       type: git
@@ -4785,7 +4785,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/neo_simulation2-release.git
+      url: https://github.com/revyos-ros/neo_simulation2-release.git
       version: 1.0.0-3
     source:
       type: git
@@ -4846,7 +4846,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/nmea_hardware_interface-release.git
+      url: https://github.com/revyos-ros/nmea_hardware_interface-release.git
       version: 0.0.1-3
     source:
       type: git
@@ -4861,7 +4861,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/nmea_msgs-release.git
+      url: https://github.com/revyos-ros/nmea_msgs-release.git
       version: 2.0.0-4
     source:
       type: git
@@ -4876,7 +4876,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/nmea_navsat_driver-release.git
+      url: https://github.com/revyos-ros/nmea_navsat_driver-release.git
       version: 2.0.1-1
     source:
       test_pull_requests: true
@@ -4895,7 +4895,7 @@ repositories:
       - ros2nodl
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/nodl-release.git
+      url: https://github.com/revyos-ros/nodl-release.git
       version: 0.3.1-3
     source:
       type: git
@@ -4910,7 +4910,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/nodl_to_policy-release.git
+      url: https://github.com/revyos-ros/nodl_to_policy-release.git
       version: 1.0.0-3
     source:
       test_pull_requests: true
@@ -4929,7 +4929,7 @@ repositories:
       - novatel_gps_msgs
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/novatel_gps_driver-release.git
+      url: https://github.com/revyos-ros/novatel_gps_driver-release.git
       version: 4.1.2-1
     source:
       type: git
@@ -4963,7 +4963,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/ntpd_driver-release.git
+      url: https://github.com/revyos-ros/ntpd_driver-release.git
       version: 2.2.0-1
     source:
       type: git
@@ -4978,7 +4978,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/ntrip_client-release.git
+      url: https://github.com/revyos-ros/ntrip_client-release.git
       version: 1.3.0-1
     source:
       test_pull_requests: true
@@ -4990,7 +4990,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/object_recognition_msgs-release.git
+      url: https://github.com/revyos-ros/object_recognition_msgs-release.git
       version: 2.0.0-3
     source:
       type: git
@@ -5042,7 +5042,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/octomap_msgs-release.git
+      url: https://github.com/revyos-ros/octomap_msgs-release.git
       version: 2.0.0-3
     source:
       type: git
@@ -5057,7 +5057,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/octomap_ros-release.git
+      url: https://github.com/revyos-ros/octomap_ros-release.git
       version: 0.4.3-1
     source:
       type: git
@@ -5072,7 +5072,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/octomap_rviz_plugins-release.git
+      url: https://github.com/revyos-ros/octomap_rviz_plugins-release.git
       version: 2.0.0-3
     source:
       type: git
@@ -5087,7 +5087,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/odom_to_tf_ros2-release.git
+      url: https://github.com/revyos-ros/odom_to_tf_ros2-release.git
       version: 1.0.2-1
     source:
       type: git
@@ -5183,7 +5183,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/ompl-release.git
+      url: https://github.com/revyos-ros/ompl-release.git
       version: 1.6.0-1
   openeb_vendor:
     doc:
@@ -5193,7 +5193,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/openeb_vendor-release.git
+      url: https://github.com/revyos-ros/openeb_vendor-release.git
       version: 1.1.0-1
     source:
       type: git
@@ -5222,7 +5222,7 @@ repositories:
       - python_orocos_kdl_vendor
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/orocos_kdl_vendor-release.git
+      url: https://github.com/revyos-ros/orocos_kdl_vendor-release.git
       version: 0.2.5-1
     source:
       test_pull_requests: true
@@ -5234,7 +5234,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/ortools_vendor-release.git
+      url: https://github.com/revyos-ros/ortools_vendor-release.git
       version: 9.9.0-5
   osqp_vendor:
     doc:
@@ -5259,7 +5259,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/osrf_pycommon-release.git
+      url: https://github.com/revyos-ros/osrf_pycommon-release.git
       version: 2.0.2-2
     source:
       type: git
@@ -5274,7 +5274,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/osrf_testing_tools_cpp-release.git
+      url: https://github.com/revyos-ros/osrf_testing_tools_cpp-release.git
       version: 1.5.2-1
     source:
       test_pull_requests: true
@@ -5293,7 +5293,7 @@ repositories:
       - ouxt_lint_common
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/ouxt_common-release.git
+      url: https://github.com/revyos-ros/ouxt_common-release.git
       version: 0.0.8-3
     source:
       type: git
@@ -5458,7 +5458,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/Pangolin-release.git
+      url: https://github.com/revyos-ros/Pangolin-release.git
       version: 0.9.1-1
     source:
       type: git
@@ -5469,7 +5469,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/pcl_msgs-release.git
+      url: https://github.com/revyos-ros/pcl_msgs-release.git
       version: 1.0.0-7
     source:
       type: git
@@ -5497,7 +5497,7 @@ repositories:
       - open3d_conversions
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/perception_open3d-release.git
+      url: https://github.com/revyos-ros/perception_open3d-release.git
       version: 0.2.1-1
     source:
       type: git
@@ -5532,7 +5532,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/performance_test-release.git
+      url: https://github.com/revyos-ros/performance_test-release.git
       version: 1.2.1-1
     source:
       type: git
@@ -5543,7 +5543,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/performance_test_fixture-release.git
+      url: https://github.com/revyos-ros/performance_test_fixture-release.git
       version: 0.0.9-1
     source:
       test_pull_requests: true
@@ -5576,7 +5576,7 @@ repositories:
       - phidgets_temperature
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/phidgets_drivers-release.git
+      url: https://github.com/revyos-ros/phidgets_drivers-release.git
       version: 2.3.3-1
     source:
       test_pull_requests: true
@@ -5592,7 +5592,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/pick_ik-release.git
+      url: https://github.com/revyos-ros/pick_ik-release.git
       version: 1.1.0-1
     source:
       type: git
@@ -5603,7 +5603,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/picknik_ament_copyright-release.git
+      url: https://github.com/revyos-ros/picknik_ament_copyright-release.git
       version: 0.0.2-3
   picknik_controllers:
     doc:
@@ -5616,7 +5616,7 @@ repositories:
       - picknik_twist_controller
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/picknik_controllers-release.git
+      url: https://github.com/revyos-ros/picknik_controllers-release.git
       version: 0.0.3-1
     source:
       type: git
@@ -5631,7 +5631,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/pinocchio-release.git
+      url: https://github.com/revyos-ros/pinocchio-release.git
       version: 2.6.21-1
     source:
       type: git
@@ -5679,7 +5679,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/plotjuggler_msgs-release.git
+      url: https://github.com/revyos-ros/plotjuggler_msgs-release.git
       version: 0.2.3-3
     source:
       type: git
@@ -5694,7 +5694,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/plotjuggler-ros-plugins-release.git
+      url: https://github.com/revyos-ros/plotjuggler-ros-plugins-release.git
       version: 2.1.0-1
     source:
       type: git
@@ -5709,7 +5709,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/pluginlib-release.git
+      url: https://github.com/revyos-ros/pluginlib-release.git
       version: 5.1.0-3
     source:
       test_pull_requests: true
@@ -5783,7 +5783,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/point_cloud_msg_wrapper-release.git
+      url: https://github.com/revyos-ros/point_cloud_msg_wrapper-release.git
       version: 1.0.7-3
     source:
       type: git
@@ -5837,7 +5837,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/pointcloud_to_laserscan-release.git
+      url: https://github.com/revyos-ros/pointcloud_to_laserscan-release.git
       version: 2.0.1-3
     source:
       type: git
@@ -5857,7 +5857,7 @@ repositories:
       - polygon_utils
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/polygon_ros-release.git
+      url: https://github.com/revyos-ros/polygon_ros-release.git
       version: 1.0.2-1
     source:
       test_pull_requests: true
@@ -5888,7 +5888,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/pose_cov_ops-release.git
+      url: https://github.com/revyos-ros/pose_cov_ops-release.git
       version: 0.3.11-1
     source:
       type: git
@@ -5903,7 +5903,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/proxsuite-release.git
+      url: https://github.com/revyos-ros/proxsuite-release.git
       version: 0.3.6-2
     source:
       type: git
@@ -5947,7 +5947,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/py_trees-release.git
+      url: https://github.com/revyos-ros/py_trees-release.git
       version: 2.2.3-1
     source:
       test_pull_requests: true
@@ -5963,7 +5963,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/py_trees_js-release.git
+      url: https://github.com/revyos-ros/py_trees_js-release.git
       version: 0.6.4-1
     source:
       test_pull_requests: true
@@ -5979,7 +5979,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/py_trees_ros-release.git
+      url: https://github.com/revyos-ros/py_trees_ros-release.git
       version: 2.2.2-3
     source:
       test_pull_requests: true
@@ -5995,7 +5995,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/py_trees_ros_interfaces-release.git
+      url: https://github.com/revyos-ros/py_trees_ros_interfaces-release.git
       version: 2.1.0-1
     source:
       test_pull_requests: true
@@ -6011,7 +6011,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/pybind11_json_vendor-release.git
+      url: https://github.com/revyos-ros/pybind11_json_vendor-release.git
       version: 0.2.3-1
     source:
       type: git
@@ -6026,7 +6026,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/pybind11_vendor-release.git
+      url: https://github.com/revyos-ros/pybind11_vendor-release.git
       version: 2.4.2-1
     source:
       test_pull_requests: true
@@ -6042,7 +6042,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/python_cmake_module-release.git
+      url: https://github.com/revyos-ros/python_cmake_module-release.git
       version: 0.10.0-2
     source:
       type: git
@@ -6057,7 +6057,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/python_qt_binding-release.git
+      url: https://github.com/revyos-ros/python_qt_binding-release.git
       version: 1.1.2-1
     source:
       test_pull_requests: true
@@ -6087,7 +6087,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/qpoases_vendor-release.git
+      url: https://github.com/revyos-ros/qpoases_vendor-release.git
       version: 3.2.3-3
     source:
       type: git
@@ -6125,7 +6125,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/quaternion_operation-release.git
+      url: https://github.com/revyos-ros/quaternion_operation-release.git
       version: 0.0.11-1
     source:
       type: git
@@ -6160,7 +6160,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/radar_msgs-release.git
+      url: https://github.com/revyos-ros/radar_msgs-release.git
       version: 0.2.1-3
     status: maintained
   random_numbers:
@@ -6171,7 +6171,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/random_numbers-release.git
+      url: https://github.com/revyos-ros/random_numbers-release.git
       version: 2.0.1-3
     source:
       type: git
@@ -6189,7 +6189,7 @@ repositories:
       - raspimouse_msgs
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/raspimouse2-release.git
+      url: https://github.com/revyos-ros/raspimouse2-release.git
       version: 1.1.2-1
     source:
       type: git
@@ -6204,7 +6204,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/raspimouse_description-release.git
+      url: https://github.com/revyos-ros/raspimouse_description-release.git
       version: 1.2.0-1
     source:
       type: git
@@ -6219,7 +6219,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/raspimouse_ros2_examples-release.git
+      url: https://github.com/revyos-ros/raspimouse_ros2_examples-release.git
       version: 2.2.0-2
     source:
       test_pull_requests: true
@@ -6239,7 +6239,7 @@ repositories:
       - raspimouse_sim
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/raspimouse_sim-release.git
+      url: https://github.com/revyos-ros/raspimouse_sim-release.git
       version: 2.1.0-1
     source:
       type: git
@@ -6258,7 +6258,7 @@ repositories:
       - raspimouse_slam_navigation
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/raspimouse_slam_navigation_ros2-release.git
+      url: https://github.com/revyos-ros/raspimouse_slam_navigation_ros2-release.git
       version: 2.1.0-1
     source:
       test_pull_requests: true
@@ -6274,7 +6274,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/rc_common_msgs_ros2-release.git
+      url: https://github.com/revyos-ros/rc_common_msgs_ros2-release.git
       version: 0.5.3-4
     source:
       test_pull_requests: true
@@ -6290,7 +6290,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/rc_dynamics_api-release.git
+      url: https://github.com/revyos-ros/rc_dynamics_api-release.git
       version: 0.10.3-3
     source:
       test_pull_requests: true
@@ -6306,7 +6306,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/rc_genicam_api-release.git
+      url: https://github.com/revyos-ros/rc_genicam_api-release.git
       version: 2.6.5-1
     source:
       test_pull_requests: true
@@ -6322,7 +6322,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/rc_genicam_driver_ros2-release.git
+      url: https://github.com/revyos-ros/rc_genicam_driver_ros2-release.git
       version: 0.3.0-1
     source:
       test_pull_requests: true
@@ -6341,7 +6341,7 @@ repositories:
       - rc_reason_msgs
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/rc_reason_clients-release.git
+      url: https://github.com/revyos-ros/rc_reason_clients-release.git
       version: 0.3.1-1
     source:
       test_pull_requests: true
@@ -6444,7 +6444,7 @@ repositories:
       - rclc_parameter
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/rclc-release.git
+      url: https://github.com/revyos-ros/rclc-release.git
       version: 4.0.2-3
     source:
       test_pull_requests: true
@@ -6544,7 +6544,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/reach-release.git
+      url: https://github.com/revyos-ros/reach-release.git
       version: 1.6.0-1
     source:
       type: git
@@ -6555,7 +6555,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/reach_ros2-release.git
+      url: https://github.com/revyos-ros/reach_ros2-release.git
       version: 1.4.0-1
     source:
       type: git
@@ -6758,7 +6758,7 @@ repositories:
       - rmf_websocket
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/rmf_ros2-release.git
+      url: https://github.com/revyos-ros/rmf_ros2-release.git
       version: 2.1.8-1
     source:
       type: git
@@ -6798,7 +6798,7 @@ repositories:
       - rmf_task_sequence
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/rmf_task-release.git
+      url: https://github.com/revyos-ros/rmf_task-release.git
       version: 2.1.8-1
     source:
       type: git
@@ -6816,7 +6816,7 @@ repositories:
       - rmf_traffic_examples
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/rmf_traffic-release.git
+      url: https://github.com/revyos-ros/rmf_traffic-release.git
       version: 3.0.3-1
     source:
       type: git
@@ -6851,7 +6851,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/rmf_utils-release.git
+      url: https://github.com/revyos-ros/rmf_utils-release.git
       version: 1.4.1-1
     source:
       type: git
@@ -6868,7 +6868,7 @@ repositories:
       - rmf_dev
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/rmf_variants-release.git
+      url: https://github.com/revyos-ros/rmf_variants-release.git
       version: 0.0.1-1
     source:
       type: git
@@ -6892,7 +6892,7 @@ repositories:
       - rmf_visualization_schedule
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/rmf_visualization-release.git
+      url: https://github.com/revyos-ros/rmf_visualization-release.git
       version: 2.0.2-1
     source:
       type: git
@@ -6907,7 +6907,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/rmf_visualization_msgs-release.git
+      url: https://github.com/revyos-ros/rmf_visualization_msgs-release.git
       version: 1.2.1-1
     source:
       type: git
@@ -6962,7 +6962,7 @@ repositories:
       - rmw_cyclonedds_cpp
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/rmw_cyclonedds-release.git
+      url: https://github.com/revyos-ros/rmw_cyclonedds-release.git
       version: 1.3.4-1
     source:
       test_pull_requests: true
@@ -6978,7 +6978,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/rmw_dds_common-release.git
+      url: https://github.com/revyos-ros/rmw_dds_common-release.git
       version: 1.6.0-2
     source:
       test_pull_requests: true
@@ -6998,7 +6998,7 @@ repositories:
       - rmw_fastrtps_shared_cpp
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/rmw_fastrtps-release.git
+      url: https://github.com/revyos-ros/rmw_fastrtps-release.git
       version: 6.2.6-1
     source:
       test_pull_requests: true
@@ -7017,7 +7017,7 @@ repositories:
       - rmw_gurumdds_cpp
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/rmw_gurumdds-release.git
+      url: https://github.com/revyos-ros/rmw_gurumdds-release.git
       version: 3.4.2-1
     source:
       type: git
@@ -7051,7 +7051,7 @@ repositories:
       - robot_calibration_msgs
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/robot_calibration-release.git
+      url: https://github.com/revyos-ros/robot_calibration-release.git
       version: 0.8.1-1
     source:
       type: git
@@ -7098,7 +7098,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/robot_state_publisher-release.git
+      url: https://github.com/revyos-ros/robot_state_publisher-release.git
       version: 3.0.3-2
     source:
       test_pull_requests: true
@@ -7155,7 +7155,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/ros1_bridge-release.git
+      url: https://github.com/revyos-ros/ros1_bridge-release.git
     source:
       test_commits: false
       type: git
@@ -7269,7 +7269,7 @@ repositories:
       - kortex_driver
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/ros2_kortex-release.git
+      url: https://github.com/revyos-ros/ros2_kortex-release.git
       version: 0.2.2-1
     source:
       type: git
@@ -7287,7 +7287,7 @@ repositories:
       - ros2_ouster
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/ros2_ouster_drivers-release.git
+      url: https://github.com/revyos-ros/ros2_ouster_drivers-release.git
       version: 0.4.2-1
     source:
       test_pull_requests: true
@@ -7335,7 +7335,7 @@ repositories:
       - robotiq_description
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/ros2_robotiq_gripper-release.git
+      url: https://github.com/revyos-ros/ros2_robotiq_gripper-release.git
       version: 0.0.1-1
     source:
       type: git
@@ -7375,7 +7375,7 @@ repositories:
       - tracetools_trace
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/ros2_tracing-release.git
+      url: https://github.com/revyos-ros/ros2_tracing-release.git
       version: 4.1.1-1
     source:
       type: git
@@ -7390,7 +7390,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/ros2acceleration-release.git
+      url: https://github.com/revyos-ros/ros2acceleration-release.git
       version: 0.5.1-2
     source:
       test_pull_requests: true
@@ -7406,7 +7406,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/ros2caret-release.git
+      url: https://github.com/revyos-ros/ros2caret-release.git
       version: 0.5.0-6
     source:
       type: git
@@ -7453,7 +7453,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/ros2cli_common_extensions-release.git
+      url: https://github.com/revyos-ros/ros2cli_common_extensions-release.git
       version: 0.1.1-4
     source:
       type: git
@@ -7471,7 +7471,7 @@ repositories:
       - ros2launch_security_examples
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/ros2launch_security-release.git
+      url: https://github.com/revyos-ros/ros2launch_security-release.git
       version: 1.0.0-3
     source:
       test_pull_requests: true
@@ -7556,7 +7556,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/ros_industrial_cmake_boilerplate-release.git
+      url: https://github.com/revyos-ros/ros_industrial_cmake_boilerplate-release.git
       version: 0.4.0-1
   ros_testing:
     doc:
@@ -7569,7 +7569,7 @@ repositories:
       - ros_testing
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/ros_testing-release.git
+      url: https://github.com/revyos-ros/ros_testing-release.git
       version: 0.4.0-3
     source:
       test_pull_requests: true
@@ -7653,7 +7653,7 @@ repositories:
       - rosbag2_bag_v2_plugins
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/rosbag2_bag_v2-release.git
+      url: https://github.com/revyos-ros/rosbag2_bag_v2-release.git
     source:
       test_commits: false
       type: git
@@ -7813,7 +7813,7 @@ repositories:
       - rosidl_typesupport_fastrtps_cpp
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/rosidl_typesupport_fastrtps-release.git
+      url: https://github.com/revyos-ros/rosidl_typesupport_fastrtps-release.git
       version: 2.2.2-2
     source:
       test_pull_requests: true
@@ -7846,7 +7846,7 @@ repositories:
       - rot_conv
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/rot_conv_lib-release.git
+      url: https://github.com/revyos-ros/rot_conv_lib-release.git
       version: 1.0.11-2
     source:
       type: git
@@ -7861,7 +7861,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/rplidar_ros-release.git
+      url: https://github.com/revyos-ros/rplidar_ros-release.git
       version: 2.1.4-1
     source:
       test_pull_requests: true
@@ -7877,7 +7877,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/rpyutils-release.git
+      url: https://github.com/revyos-ros/rpyutils-release.git
       version: 0.2.1-2
     source:
       test_pull_requests: true
@@ -7915,7 +7915,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/rqt_action-release.git
+      url: https://github.com/revyos-ros/rqt_action-release.git
       version: 2.0.1-3
     source:
       type: git
@@ -7948,7 +7948,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/rqt_common_plugins-release.git
+      url: https://github.com/revyos-ros/rqt_common_plugins-release.git
       version: 1.2.0-1
     source:
       type: git
@@ -7963,7 +7963,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/rqt_console-release.git
+      url: https://github.com/revyos-ros/rqt_console-release.git
       version: 2.0.3-1
     source:
       type: git
@@ -7988,7 +7988,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/rqt_gauges-release.git
+      url: https://github.com/revyos-ros/rqt_gauges-release.git
       version: 0.0.3-1
     source:
       test_pull_requests: false
@@ -8023,7 +8023,7 @@ repositories:
       - rqt_image_overlay_layer
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/rqt_image_overlay-release.git
+      url: https://github.com/revyos-ros/rqt_image_overlay-release.git
       version: 0.1.3-1
     source:
       type: git
@@ -8038,7 +8038,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/rqt_image_view-release.git
+      url: https://github.com/revyos-ros/rqt_image_view-release.git
       version: 1.2.0-2
     source:
       test_pull_requests: true
@@ -8054,7 +8054,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/rqt_moveit-release.git
+      url: https://github.com/revyos-ros/rqt_moveit-release.git
       version: 1.0.1-3
     source:
       type: git
@@ -8114,7 +8114,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/rqt_py_console-release.git
+      url: https://github.com/revyos-ros/rqt_py_console-release.git
       version: 1.0.2-3
     source:
       type: git
@@ -8129,7 +8129,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/rqt_reconfigure-release.git
+      url: https://github.com/revyos-ros/rqt_reconfigure-release.git
       version: 1.1.2-1
     source:
       test_pull_requests: true
@@ -8145,7 +8145,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/rqt_robot_dashboard-release.git
+      url: https://github.com/revyos-ros/rqt_robot_dashboard-release.git
       version: 0.6.1-3
     source:
       type: git
@@ -8175,7 +8175,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/rqt_robot_steering-release.git
+      url: https://github.com/revyos-ros/rqt_robot_steering-release.git
       version: 1.0.0-4
     source:
       type: git
@@ -8190,7 +8190,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/rqt_runtime_monitor-release.git
+      url: https://github.com/revyos-ros/rqt_runtime_monitor-release.git
       version: 1.0.0-3
     source:
       type: git
@@ -8205,7 +8205,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/rqt_service_caller-release.git
+      url: https://github.com/revyos-ros/rqt_service_caller-release.git
       version: 1.0.5-3
     source:
       type: git
@@ -8235,7 +8235,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/rqt_srv-release.git
+      url: https://github.com/revyos-ros/rqt_srv-release.git
       version: 1.0.3-3
     source:
       type: git
@@ -8250,7 +8250,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/rqt_tf_tree-release.git
+      url: https://github.com/revyos-ros/rqt_tf_tree-release.git
       version: 1.0.4-1
     source:
       type: git
@@ -8265,7 +8265,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/rqt_topic-release.git
+      url: https://github.com/revyos-ros/rqt_topic-release.git
       version: 1.5.0-1
     source:
       test_pull_requests: true
@@ -8281,7 +8281,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/RSL-release.git
+      url: https://github.com/revyos-ros/RSL-release.git
       version: 1.1.0-1
     source:
       type: git
@@ -8299,7 +8299,7 @@ repositories:
       - rt_manipulators_examples
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/rt_manipulators_cpp-release.git
+      url: https://github.com/revyos-ros/rt_manipulators_cpp-release.git
       version: 1.0.0-1
     source:
       type: git
@@ -8314,7 +8314,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/rt_usb_9axisimu_driver-release.git
+      url: https://github.com/revyos-ros/rt_usb_9axisimu_driver-release.git
       version: 2.0.2-1
     source:
       type: git
@@ -8329,7 +8329,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/rtabmap-release.git
+      url: https://github.com/revyos-ros/rtabmap-release.git
       version: 0.21.4-1
     source:
       type: git
@@ -8373,7 +8373,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/rtcm_msgs-release.git
+      url: https://github.com/revyos-ros/rtcm_msgs-release.git
       version: 1.1.6-1
     source:
       type: git
@@ -8384,7 +8384,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/ruckig-release.git
+      url: https://github.com/revyos-ros/ruckig-release.git
       version: 0.9.2-1
     source:
       type: git
@@ -8408,7 +8408,7 @@ repositories:
       - rviz_visual_testing_framework
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/rviz-release.git
+      url: https://github.com/revyos-ros/rviz-release.git
       version: 11.2.12-1
     source:
       test_pull_requests: true
@@ -8427,7 +8427,7 @@ repositories:
       - rviz_2d_overlay_plugins
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/rviz_2d_overlay_plugins-release.git
+      url: https://github.com/revyos-ros/rviz_2d_overlay_plugins-release.git
       version: 1.3.0-1
     source:
       test_pull_requests: true
@@ -8458,7 +8458,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/rviz_visual_tools-release.git
+      url: https://github.com/revyos-ros/rviz_visual_tools-release.git
       version: 4.1.4-1
     source:
       type: git
@@ -8492,7 +8492,7 @@ repositories:
       - schunk_svh_tests
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/schunk_svh_ros_driver-release.git
+      url: https://github.com/revyos-ros/schunk_svh_ros_driver-release.git
       version: 2.1.1-1
     source:
       type: git
@@ -8587,7 +8587,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/sick_safevisionary_base-release.git
+      url: https://github.com/revyos-ros/sick_safevisionary_base-release.git
       version: 1.0.1-1
     source:
       type: git
@@ -8606,7 +8606,7 @@ repositories:
       - sick_safevisionary_tests
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/sick_safevisionary_ros2-release.git
+      url: https://github.com/revyos-ros/sick_safevisionary_ros2-release.git
       version: 1.0.3-1
     source:
       type: git
@@ -8642,7 +8642,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/simple_actions-release.git
+      url: https://github.com/revyos-ros/simple_actions-release.git
       version: 0.3.0-1
     source:
       test_pull_requests: true
@@ -8663,7 +8663,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/simple_launch-release.git
+      url: https://github.com/revyos-ros/simple_launch-release.git
       version: 1.9.2-1
     source:
       type: git
@@ -8776,7 +8776,7 @@ repositories:
       - smach_ros
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/executive_smach-release.git
+      url: https://github.com/revyos-ros/executive_smach-release.git
       version: 3.0.3-1
     source:
       type: git
@@ -8791,7 +8791,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/snowbot_release.git
+      url: https://github.com/revyos-ros/snowbot_release.git
       version: 0.1.2-3
     source:
       type: git
@@ -8811,7 +8811,7 @@ repositories:
       - soccer_vision_attribute_msgs
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/soccer_interfaces-release.git
+      url: https://github.com/revyos-ros/soccer_interfaces-release.git
       version: 0.1.0-1
     source:
       type: git
@@ -8826,7 +8826,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/soccer_object_msgs-release.git
+      url: https://github.com/revyos-ros/soccer_object_msgs-release.git
       version: 1.0.1-4
     source:
       type: git
@@ -8843,7 +8843,7 @@ repositories:
       - soccer_marker_generation
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/soccer_visualization-release.git
+      url: https://github.com/revyos-ros/soccer_visualization-release.git
       version: 0.0.2-3
     source:
       type: git
@@ -8861,7 +8861,7 @@ repositories:
       - social_nav_util
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/social_nav_ros-release.git
+      url: https://github.com/revyos-ros/social_nav_ros-release.git
       version: 0.1.0-1
     source:
       test_pull_requests: true
@@ -8877,7 +8877,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/sol_vendor-release.git
+      url: https://github.com/revyos-ros/sol_vendor-release.git
       version: 0.0.3-3
     source:
       type: git
@@ -8892,7 +8892,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/sophus-release.git
+      url: https://github.com/revyos-ros/sophus-release.git
       version: 1.3.2-1
     source:
       type: git
@@ -8921,7 +8921,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/spdlog_vendor-release.git
+      url: https://github.com/revyos-ros/spdlog_vendor-release.git
       version: 1.3.1-1
     source:
       test_pull_requests: true
@@ -8937,7 +8937,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/srdfdom-release.git
+      url: https://github.com/revyos-ros/srdfdom-release.git
       version: 2.0.4-1
     source:
       type: git
@@ -8981,7 +8981,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/stomp-release.git
+      url: https://github.com/revyos-ros/stomp-release.git
       version: 0.1.2-1
     source:
       type: git
@@ -8999,7 +8999,7 @@ repositories:
       - stubborn_buddies_msgs
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/stubborn_buddies-release.git
+      url: https://github.com/revyos-ros/stubborn_buddies-release.git
       version: 1.0.0-5
     source:
       type: git
@@ -9014,7 +9014,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/swri_console-release.git
+      url: https://github.com/revyos-ros/swri_console-release.git
       version: 2.0.4-1
     source:
       type: git
@@ -9045,7 +9045,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/ros_system_fingerprint-release.git
+      url: https://github.com/revyos-ros/ros_system_fingerprint-release.git
       version: 0.7.0-1
     source:
       test_pull_requests: true
@@ -9066,7 +9066,7 @@ repositories:
       - system_modes_msgs
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/system_modes-release.git
+      url: https://github.com/revyos-ros/system_modes-release.git
       version: 0.9.0-6
     source:
       test_pull_requests: true
@@ -9085,7 +9085,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/tango_icons_vendor-release.git
+      url: https://github.com/revyos-ros/tango_icons_vendor-release.git
       version: 0.1.1-3
     source:
       type: git
@@ -9106,7 +9106,7 @@ repositories:
       - teleop_tools_msgs
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/teleop_tools-release.git
+      url: https://github.com/revyos-ros/teleop_tools-release.git
       version: 1.5.0-1
     source:
       type: git
@@ -9121,7 +9121,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/teleop_twist_joy-release.git
+      url: https://github.com/revyos-ros/teleop_twist_joy-release.git
       version: 2.4.5-1
     source:
       test_pull_requests: true
@@ -9137,7 +9137,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/teleop_twist_keyboard-release.git
+      url: https://github.com/revyos-ros/teleop_twist_keyboard-release.git
       version: 2.4.0-1
     source:
       test_pull_requests: true
@@ -9153,7 +9153,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/tensorrt_cmake_module-release.git
+      url: https://github.com/revyos-ros/tensorrt_cmake_module-release.git
       version: 0.0.3-1
     source:
       type: git
@@ -9168,7 +9168,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/test_interface_files-release.git
+      url: https://github.com/revyos-ros/test_interface_files-release.git
       version: 0.9.1-2
     source:
       test_pull_requests: true
@@ -9184,7 +9184,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/tf_transformations_release.git
+      url: https://github.com/revyos-ros/tf_transformations_release.git
       version: 1.0.1-3
     source:
       test_pull_requests: true
@@ -9293,7 +9293,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/tinyxml2_vendor-release.git
+      url: https://github.com/revyos-ros/tinyxml2_vendor-release.git
       version: 0.7.6-1
     source:
       test_pull_requests: true
@@ -9305,7 +9305,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/tinyxml_vendor-release.git
+      url: https://github.com/revyos-ros/tinyxml_vendor-release.git
       version: 0.8.3-2
     source:
       test_pull_requests: true
@@ -9321,7 +9321,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/tlsf-release.git
+      url: https://github.com/revyos-ros/tlsf-release.git
       version: 0.7.0-2
     source:
       test_pull_requests: true
@@ -9333,7 +9333,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/topic_based_ros2_control-release.git
+      url: https://github.com/revyos-ros/topic_based_ros2_control-release.git
       version: 0.2.0-1
   topic_tools:
     doc:
@@ -9346,7 +9346,7 @@ repositories:
       - topic_tools_interfaces
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/topic_tools-release.git
+      url: https://github.com/revyos-ros/topic_tools-release.git
       version: 1.1.1-1
     source:
       type: git
@@ -9361,7 +9361,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/tracetools_acceleration-release.git
+      url: https://github.com/revyos-ros/tracetools_acceleration-release.git
       version: 0.4.1-2
     source:
       test_pull_requests: true
@@ -9380,7 +9380,7 @@ repositories:
       - tracetools_analysis
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/tracetools_analysis-release.git
+      url: https://github.com/revyos-ros/tracetools_analysis-release.git
       version: 3.0.0-4
     source:
       type: git
@@ -9400,7 +9400,7 @@ repositories:
       - udp_driver
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/transport_drivers-release.git
+      url: https://github.com/revyos-ros/transport_drivers-release.git
       version: 1.2.0-2
     source:
       type: git
@@ -9415,7 +9415,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/turbojpeg_compressed_image_transport-release.git
+      url: https://github.com/revyos-ros/turbojpeg_compressed_image_transport-release.git
       version: 0.1.3-1
     source:
       type: git
@@ -9463,7 +9463,7 @@ repositories:
       - turtlebot3_manipulation_teleop
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/turtlebot3_manipulation-release.git
+      url: https://github.com/revyos-ros/turtlebot3_manipulation-release.git
       version: 2.1.1-1
     source:
       type: git
@@ -9478,7 +9478,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/turtlebot3_msgs-release.git
+      url: https://github.com/revyos-ros/turtlebot3_msgs-release.git
       version: 2.2.3-1
     source:
       type: git
@@ -9497,7 +9497,7 @@ repositories:
       - turtlebot3_simulations
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/turtlebot3_simulations-release.git
+      url: https://github.com/revyos-ros/turtlebot3_simulations-release.git
       version: 2.2.5-3
     source:
       type: git
@@ -9517,7 +9517,7 @@ repositories:
       - turtlebot4_node
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/turtlebot4-release.git
+      url: https://github.com/revyos-ros/turtlebot4-release.git
       version: 1.0.4-1
     source:
       type: git
@@ -9535,7 +9535,7 @@ repositories:
       - turtlebot4_viz
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/turtlebot4_desktop-release.git
+      url: https://github.com/revyos-ros/turtlebot4_desktop-release.git
       version: 1.0.0-1
     source:
       type: git
@@ -9556,7 +9556,7 @@ repositories:
       - turtlebot4_tests
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/turtlebot4_robot-release.git
+      url: https://github.com/revyos-ros/turtlebot4_robot-release.git
       version: 1.0.2-1
     source:
       type: git
@@ -9571,7 +9571,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/turtlebot4_setup-release.git
+      url: https://github.com/revyos-ros/turtlebot4_setup-release.git
       version: 1.0.3-1
     source:
       type: git
@@ -9610,7 +9610,7 @@ repositories:
       - turtlebot4_tutorials
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/turtlebot4_tutorials-release.git
+      url: https://github.com/revyos-ros/turtlebot4_tutorials-release.git
       version: 1.0.1-1
     source:
       type: git
@@ -9625,7 +9625,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/tuw_geometry-release.git
+      url: https://github.com/revyos-ros/tuw_geometry-release.git
       version: 0.1.1-1
     source:
       type: git
@@ -9677,7 +9677,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/twist_mux-release.git
+      url: https://github.com/revyos-ros/twist_mux-release.git
       version: 4.3.0-1
     source:
       type: git
@@ -9692,7 +9692,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/twist_mux_msgs-release.git
+      url: https://github.com/revyos-ros/twist_mux_msgs-release.git
       version: 3.0.1-1
     source:
       type: git
@@ -9707,7 +9707,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/twist_stamper-release.git
+      url: https://github.com/revyos-ros/twist_stamper-release.git
       version: 0.0.3-1
     source:
       type: git
@@ -9727,7 +9727,7 @@ repositories:
       - ublox_serialization
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/ublox-release.git
+      url: https://github.com/revyos-ros/ublox-release.git
       version: 2.3.0-2
     source:
       test_pull_requests: true
@@ -9750,7 +9750,7 @@ repositories:
       - ublox_ubx_msgs
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/ublox_dgnss-release.git
+      url: https://github.com/revyos-ros/ublox_dgnss-release.git
       version: 0.5.2-1
     source:
       type: git
@@ -9765,7 +9765,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/udp_msgs-release.git
+      url: https://github.com/revyos-ros/udp_msgs-release.git
       version: 0.0.3-5
     source:
       type: git
@@ -9776,7 +9776,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/uncrustify_vendor-release.git
+      url: https://github.com/revyos-ros/uncrustify_vendor-release.git
       version: 2.0.2-2
     source:
       type: git
@@ -9791,7 +9791,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/unique_identifier_msgs-release.git
+      url: https://github.com/revyos-ros/unique_identifier_msgs-release.git
       version: 2.2.1-3
     source:
       test_pull_requests: true
@@ -9807,7 +9807,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/unitree_ros-release.git
+      url: https://github.com/revyos-ros/unitree_ros-release.git
       version: 1.1.1-1
     source:
       type: git
@@ -9822,7 +9822,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/Universal_Robots_Client_Library-release.git
+      url: https://github.com/revyos-ros/Universal_Robots_Client_Library-release.git
       version: 1.3.7-1
     source:
       type: git
@@ -9837,7 +9837,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/ur_description-release.git
+      url: https://github.com/revyos-ros/ur_description-release.git
       version: 2.1.5-1
     source:
       type: git
@@ -9852,7 +9852,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/ur_msgs-release.git
+      url: https://github.com/revyos-ros/ur_msgs-release.git
       version: 2.0.0-2
     source:
       type: git
@@ -9893,7 +9893,7 @@ repositories:
       - urdf_parser_plugin
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/urdf-release.git
+      url: https://github.com/revyos-ros/urdf-release.git
       version: 2.6.0-2
     source:
       test_pull_requests: true
@@ -9909,7 +9909,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/urdf_launch-release.git
+      url: https://github.com/revyos-ros/urdf_launch-release.git
       version: 0.1.1-1
     source:
       test_pull_requests: true
@@ -9927,7 +9927,7 @@ repositories:
       - urdfdom_py
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/urdfdom_py-release.git
+      url: https://github.com/revyos-ros/urdfdom_py-release.git
       version: 1.2.1-1
     source:
       test_pull_requests: true
@@ -9959,7 +9959,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/pal-gbp/urdf_test-ros2-gbp.git
+      url: https://github.com/pal-gbp/urdf_test-revyos-ros.git
       version: 2.0.2-1
     source:
       type: git
@@ -9974,7 +9974,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/urdf_tutorial-release.git
+      url: https://github.com/revyos-ros/urdf_tutorial-release.git
       version: 1.1.0-1
     source:
       test_pull_requests: true
@@ -9990,7 +9990,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/urdfdom-release.git
+      url: https://github.com/revyos-ros/urdfdom-release.git
       version: 3.0.2-2
     source:
       test_pull_requests: true
@@ -10006,7 +10006,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/urdfdom_headers-release.git
+      url: https://github.com/revyos-ros/urdfdom_headers-release.git
       version: 1.0.6-2
     source:
       type: git
@@ -10021,7 +10021,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/urg_c-release.git
+      url: https://github.com/revyos-ros/urg_c-release.git
       version: 1.0.4001-4
     source:
       test_pull_requests: true
@@ -10037,7 +10037,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/urg_node-release.git
+      url: https://github.com/revyos-ros/urg_node-release.git
       version: 1.1.1-1
     source:
       test_pull_requests: true
@@ -10053,7 +10053,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/urg_node_msgs-release.git
+      url: https://github.com/revyos-ros/urg_node_msgs-release.git
       version: 1.0.1-6
     source:
       type: git
@@ -10083,7 +10083,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/ros2_v4l2_camera-release.git
+      url: https://github.com/revyos-ros/ros2_v4l2_camera-release.git
       version: 0.6.2-1
     source:
       type: git
@@ -10105,7 +10105,7 @@ repositories:
       - simulation
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/variants-release.git
+      url: https://github.com/revyos-ros/variants-release.git
       version: 0.10.0-1
     source:
       test_pull_requests: true
@@ -10127,7 +10127,7 @@ repositories:
       - velodyne_pointcloud
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/velodyne-release.git
+      url: https://github.com/revyos-ros/velodyne-release.git
       version: 2.4.0-1
     source:
       type: git
@@ -10201,7 +10201,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/vision_msgs_layers-release.git
+      url: https://github.com/revyos-ros/vision_msgs_layers-release.git
       version: 0.1.0-1
     source:
       type: git
@@ -10220,7 +10220,7 @@ repositories:
       - vision_opencv
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/vision_opencv-release.git
+      url: https://github.com/revyos-ros/vision_opencv-release.git
       version: 3.2.1-1
     source:
       test_pull_requests: true
@@ -10236,7 +10236,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/visp-release.git
+      url: https://github.com/revyos-ros/visp-release.git
       version: 3.5.0-2
     source:
       type: git
@@ -10277,7 +10277,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/vrpn-release.git
+      url: https://github.com/revyos-ros/vrpn-release.git
       version: 7.35.0-11
     source:
       test_commits: false
@@ -10305,7 +10305,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/wall_follower_ros2-release.git
+      url: https://github.com/revyos-ros/wall_follower_ros2-release.git
       version: 0.0.1-1
     source:
       type: git
@@ -10335,7 +10335,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/warehouse_ros_mongo-release.git
+      url: https://github.com/revyos-ros/warehouse_ros_mongo-release.git
     source:
       type: git
       url: https://github.com/ros-planning/warehouse_ros_mongo.git
@@ -10503,7 +10503,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros2-gbp/zenoh_bridge_dds-release.git
+      url: https://github.com/revyos-ros/zenoh_bridge_dds-release.git
       version: 0.5.0-3
     source:
       type: git
