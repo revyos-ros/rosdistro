@@ -2623,7 +2623,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/mikeferguson/grasping_msgs-revyos-ros.git
+      url: https://github.com/revyos-ros/grasping_msgs-ros2-gbp.git
       version: 0.4.0-1
     source:
       type: git
@@ -7070,7 +7070,7 @@ repositories:
       - robot_controllers_msgs
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/fetchrobotics-gbp/robot_controllers-ros2-release.git
+      url: https://github.com/revyos-ros/robot_controllers-ros2-release.git
       version: 0.9.3-1
     source:
       test_pull_requests: true
