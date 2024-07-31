@@ -9959,7 +9959,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/pal-gbp/urdf_test-revyos-ros.git
+      url: https://github.com/revyos-ros/urdf_test-ros2-gbp.git
       version: 2.0.2-1
     source:
       type: git
