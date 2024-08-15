@@ -8359,7 +8359,7 @@ repositories:
       - rtabmap_viz
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/introlab/rtabmap_ros-release.git
+      url: https://github.com/revyos-ros/rtabmap_ros-release.git
       version: 0.21.4-2
     source:
       type: git
