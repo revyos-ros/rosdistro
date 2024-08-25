@@ -10394,7 +10394,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/TechMagicKK/weight_scale_interfaces-release.git
+      url: https://github.com/revyos-ros/weight_scale_interfaces-release.git
       version: 0.0.3-1
     source:
       type: git
