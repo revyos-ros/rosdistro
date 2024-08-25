@@ -2124,6 +2124,7 @@ ignition-gazebo6:
   debian:
     buster: [libignition-gazebo6-dev]
     bullseye: [libignition-gazebo-dev]
+    bookworm: [libignition-gazebo-dev]
   ubuntu:
     focal: [libignition-gazebo6-dev]
     jammy: [libignition-gazebo6-dev]
