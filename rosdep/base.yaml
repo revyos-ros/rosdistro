@@ -2274,6 +2274,7 @@ ignition-transport11:
   debian:
     buster: [libignition-transport11-dev]
     bullseye: [libignition-transport-dev]
+    bookworm: [libignition-transport-dev]
   ubuntu:
     focal: [libignition-transport11-dev]
     jammy: [libignition-transport11-dev]
