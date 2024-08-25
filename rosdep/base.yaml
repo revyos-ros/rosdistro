@@ -2199,6 +2199,7 @@ ignition-msgs8:
   debian:
     buster: [libignition-msgs8-dev]
     bullseye: [libignition-msgs-dev]
+    bookworm: [libignition-msgs-dev]
   ubuntu:
     focal: [libignition-msgs8-dev]
     jammy: [libignition-msgs8-dev]
