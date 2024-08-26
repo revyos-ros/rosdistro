@@ -2071,6 +2071,7 @@ ignition-common4:
   debian:
     buster: [libignition-common4-dev]
     bullseye: [libignition-common-dev]
+    bookworm: [libignition-common-dev]
   ubuntu:
     focal: [libignition-common4-dev]
     jammy: [libignition-common4-dev]
