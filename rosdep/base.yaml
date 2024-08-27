@@ -2103,6 +2103,7 @@ ignition-fuel-tools7:
   debian:
     buster: [libignition-fuel-tools7-dev]
     bullseye: [libignition-fuel-tools-dev]
+    bookworm: [libignition-fuel-tools-dev]
   ubuntu:
     focal: [libignition-fuel-tools7-dev]
     jammy: [libignition-fuel-tools7-dev]
