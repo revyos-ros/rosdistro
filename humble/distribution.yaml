@@ -1954,7 +1954,7 @@ repositories:
       - fadecandy_msgs
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/eurogroep/fadecandy_ros-release.git
+      url: https://github.com/revyos-ros/fadecandy_ros-release.git
       version: 1.0.2-1
     source:
       type: git
