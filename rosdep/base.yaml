@@ -2701,6 +2701,7 @@ libboost-coroutine:
   alpine: [boost-dev]
   debian:
     bullseye: [libboost-coroutine1.74.0]
+    bookworm: [libboost-coroutine1.74.0]
     buster: [libboost-coroutine1.67.0]
   fedora: [boost-coroutine]
   gentoo: [dev-libs/boost]
