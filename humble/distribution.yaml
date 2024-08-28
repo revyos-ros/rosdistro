@@ -1099,7 +1099,7 @@ repositories:
       - clearpath_viz
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/clearpath-gbp/clearpath_desktop-release.git
+      url: https://github.com/revyos-ros/clearpath_desktop-release.git
       version: 0.1.2-1
     source:
       type: git
