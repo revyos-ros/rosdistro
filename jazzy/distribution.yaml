@@ -1150,7 +1150,7 @@ repositories:
       - dolly_ignition
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/dolly-release.git
+      url: https://github.com/revyos-ros/dolly-release.git
       version: 0.4.0-6
     source:
       test_pull_requests: true
