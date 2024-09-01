@@ -2084,6 +2084,7 @@ ignition-fortress:
   debian:
     buster: [ignition-fortress]
     bullseye: [ignition-fortress]
+    bookworm: [ignition-fortress]
   ubuntu:
     focal: [ignition-fortress]
     jammy: [ignition-fortress]
