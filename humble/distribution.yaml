@@ -8680,7 +8680,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/clearpath-gbp/simple_term_menu_vendor-release.git
+      url: https://github.com/revyos-ros/simple_term_menu_vendor-release.git
       version: 1.5.7-1
     source:
       type: git
