@@ -8544,7 +8544,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/SICKAG/sick_safetyscanners2-release.git
+      url: https://github.com/revyos-ros/sick_safetyscanners2-release.git
       version: 1.0.3-1
     source:
       type: git
@@ -8559,7 +8559,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/SICKAG/sick_safetyscanners2_interfaces-release.git
+      url: https://github.com/revyos-ros/sick_safetyscanners2_interfaces-release.git
       version: 1.0.0-2
     source:
       type: git
