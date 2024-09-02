@@ -4639,7 +4639,7 @@ repositories:
       - naoqi_bridge_msgs
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros-naoqi/naoqi_bridge_msgs2-release.git
+      url: https://github.com/revyos-ros/naoqi_bridge_msgs2-release.git
       version: 2.1.0-1
     source:
       test_pull_requests: true
@@ -4655,7 +4655,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros-naoqi/naoqi_driver2-release.git
+      url: https://github.com/revyos-ros/naoqi_driver2-release.git
       version: 2.1.1-1
     source:
       type: git
@@ -4685,7 +4685,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros-naoqi/libqicore-release.git
+      url: https://github.com/revyos-ros/libqicore-release.git
       version: 3.0.0-1
     source:
       type: git
