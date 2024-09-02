@@ -1,6 +1,5 @@
 release_platforms:
   debian:
-  - bullseye
   - bookworm
   ubuntu:
   - jammy
