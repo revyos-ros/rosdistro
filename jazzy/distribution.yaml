@@ -5745,7 +5745,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/revyos-ros/ros2_canopen-release.git
-      version: 0.2.12-1
+      version: 0.2.12-2
     source:
       type: git
       url: https://github.com/ros-industrial/ros2_canopen.git
