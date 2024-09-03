@@ -3042,7 +3042,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/revyos-ros/libg2o-release.git
-      version: 2020.5.29-6
+      version: 2020.5.29-7
     status: maintained
   libnabo:
     doc:
