@@ -115,7 +115,6 @@ repositories:
       - as2_motion_reference_handlers
       - as2_msgs
       - as2_platform_gazebo
-      - as2_platform_multirotor_simulator
       - as2_python_api
       - as2_realsense_interface
       - as2_rviz_plugins
@@ -125,7 +124,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/revyos-ros/aerostack2-release.git
-      version: 1.1.2-2
+      version: 1.1.2-1
     source:
       test_pull_requests: true
       type: git
