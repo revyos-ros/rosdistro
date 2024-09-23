@@ -9859,6 +9859,7 @@ python3-transformers-pip:
       packages: [transformers]
 python3-transforms3d:
   debian:
+    bookworm: [python3-transforms3d]
     pip:
       packages: [transforms3d]
   fedora: [python3-transforms3d]
