@@ -9860,8 +9860,6 @@ python3-transformers-pip:
 python3-transforms3d:
   debian:
     bookworm: [python3-transforms3d]
-    pip:
-      packages: [transforms3d]
   fedora: [python3-transforms3d]
   nixos: [python3Packages.transforms3d]
   ubuntu:
