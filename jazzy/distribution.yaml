@@ -1452,7 +1452,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/revyos-ros/ecl_core-release.git
-      version: 1.2.1-5
+      version: 1.2.1-6
     source:
       test_pull_requests: true
       type: git
