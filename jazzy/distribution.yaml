@@ -1544,7 +1544,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/revyos-ros/eigenpy-release.git
-      version: 3.8.2-1
+      version: 3.9.1-1
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
