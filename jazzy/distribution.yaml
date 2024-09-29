@@ -3246,7 +3246,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/revyos-ros/leo_simulator-release.git
-      version: 2.0.0-1
+      version: 2.0.0-2
     source:
       type: git
       url: https://github.com/LeoRover/leo_simulator-ros2.git
