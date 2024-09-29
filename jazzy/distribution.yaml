@@ -6068,25 +6068,6 @@ repositories:
       url: https://github.com/ros2/rmw.git
       version: jazzy
     status: maintained
-  rmw_connextdds:
-    doc:
-      type: git
-      url: https://github.com/ros2/rmw_connextdds.git
-      version: jazzy
-    release:
-      packages:
-      - rmw_connextdds
-      - rmw_connextdds_common
-      - rti_connext_dds_cmake_module
-      tags:
-        release: release/jazzy/{package}/{version}
-      url: https://github.com/revyos-ros/rmw_connextdds-release.git
-      version: 0.22.0-2
-    source:
-      type: git
-      url: https://github.com/ros2/rmw_connextdds.git
-      version: jazzy
-    status: developed
   rmw_cyclonedds:
     doc:
       type: git
