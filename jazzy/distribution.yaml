@@ -7567,7 +7567,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/revyos-ros/ruckig-release.git
-      version: 0.9.2-5
+      version: 0.14.0-1
     source:
       type: git
       url: https://github.com/pantor/ruckig.git
