@@ -387,6 +387,11 @@ repositories:
       type: git
       url: https://github.com/ros-misc-utilities/apriltag_mit.git
       version: rolling
+    release:
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/revyos-ros/apriltag_mit-release.git
+      version: 1.0.3-1
     source:
       type: git
       url: https://github.com/ros-misc-utilities/apriltag_mit.git
@@ -598,11 +603,12 @@ repositories:
       - autoware_planning_msgs
       - autoware_sensing_msgs
       - autoware_system_msgs
+      - autoware_v2x_msgs
       - autoware_vehicle_msgs
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/revyos-ros/autoware_msgs-release.git
-      version: 1.1.0-1
+      version: 1.2.0-1
     source:
       type: git
       url: https://github.com/autowarefoundation/autoware_msgs.git
@@ -1077,6 +1083,28 @@ repositories:
       url: https://github.com/PickNikRobotics/cpp_polyfills.git
       version: main
     status: maintained
+  create3_examples:
+    doc:
+      type: git
+      url: https://github.com/iRobotEducation/create3_examples.git
+      version: jazzy
+    release:
+      packages:
+      - create3_coverage
+      - create3_examples_msgs
+      - create3_examples_py
+      - create3_lidar_slam
+      - create3_republisher
+      - create3_teleop
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/revyos-ros/create3_examples-release.git
+      version: 1.0.0-1
+    source:
+      type: git
+      url: https://github.com/iRobotEducation/create3_examples.git
+      version: jazzy
+    status: developed
   create3_sim:
     release:
       packages:
@@ -1092,7 +1120,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/revyos-ros/create3_sim-release.git
-      version: 3.0.2-2
+      version: 3.0.3-1
     source:
       type: git
       url: https://github.com/iRobotEducation/create3_sim.git
@@ -1178,7 +1206,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/DataspeedInc-release/dbw_ros-release.git
-      version: 2.2.0-1
+      version: 2.2.3-1
     source:
       type: git
       url: https://bitbucket.org/dataspeedinc/dbw_ros.git
@@ -1254,7 +1282,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/luxonis/depthai-ros-release.git
-      version: 2.10.1-1
+      version: 2.10.2-1
     source:
       test_pull_requests: true
       type: git
@@ -2221,7 +2249,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/revyos-ros/gps_umd-release.git
-      version: 2.0.3-3
+      version: 2.0.4-1
     source:
       test_pull_requests: true
       type: git
@@ -2241,6 +2269,21 @@ repositories:
     source:
       type: git
       url: https://github.com/PickNikRobotics/graph_msgs.git
+      version: ros2
+    status: maintained
+  grasping_msgs:
+    doc:
+      type: git
+      url: https://github.com/mikeferguson/grasping_msgs.git
+      version: ros2
+    release:
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/revyos-ros/grasping_msgs-ros2-gbp.git
+      version: 0.5.0-1
+    source:
+      type: git
+      url: https://github.com/mikeferguson/grasping_msgs.git
       version: ros2
     status: maintained
   grbl_msgs:
@@ -2833,7 +2876,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/CCNYRoboticsLab/imu_tools.git
-      version: rolling
+      version: jazzy
     release:
       packages:
       - imu_complementary_filter
@@ -2843,12 +2886,12 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/revyos-ros/imu_tools-release.git
-      version: 2.1.4-1
+      version: 2.1.5-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/CCNYRoboticsLab/imu_tools.git
-      version: rolling
+      version: jazzy
     status: maintained
   interactive_marker_twist_server:
     doc:
@@ -3695,7 +3738,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/revyos-ros/microstrain_inertial-release.git
-      version: 4.3.0-2
+      version: 4.4.0-1
     source:
       test_pull_requests: true
       type: git
@@ -3761,7 +3804,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/revyos-ros/mola-release.git
-      version: 1.2.0-1
+      version: 1.2.1-1
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
@@ -4024,7 +4067,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/revyos-ros/mrpt_path_planning-release.git
-      version: 0.1.5-1
+      version: 0.2.0-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt_path_planning.git
@@ -4054,7 +4097,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/revyos-ros/mrpt_ros-release.git
-      version: 2.14.1-1
+      version: 2.14.2-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt_ros.git
@@ -5273,7 +5316,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/revyos-ros/python_mrpt_ros-release.git
-      version: 2.14.1-1
+      version: 2.14.2-1
     source:
       type: git
       url: https://github.com/MRPT/python_mrpt_ros.git
@@ -6177,7 +6220,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/revyos-ros/robot_calibration-release.git
-      version: 0.9.0-1
+      version: 0.9.1-1
     source:
       type: git
       url: https://github.com/mikeferguson/robot_calibration.git
@@ -6295,7 +6338,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/revyos-ros/ros2_control-release.git
-      version: 4.17.0-1
+      version: 4.18.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
@@ -6333,7 +6376,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/revyos-ros/ros2_controllers-release.git
-      version: 4.14.0-1
+      version: 4.15.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
@@ -7110,6 +7153,11 @@ repositories:
       type: git
       url: https://github.com/niwcpac/rqt_dotgraph.git
       version: main
+    release:
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/revyos-ros/rqt_dotgraph-release.git
+      version: 0.0.4-1
     source:
       type: git
       url: https://github.com/niwcpac/rqt_dotgraph.git
@@ -7598,6 +7646,33 @@ repositories:
       url: https://github.com/PickNikRobotics/rviz_visual_tools.git
       version: ros2
     status: maintained
+  scenario_execution:
+    doc:
+      type: git
+      url: https://github.com/IntelLabs/scenario_execution.git
+      version: jazzy
+    release:
+      packages:
+      - scenario_execution
+      - scenario_execution_control
+      - scenario_execution_coverage
+      - scenario_execution_gazebo
+      - scenario_execution_interfaces
+      - scenario_execution_nav2
+      - scenario_execution_os
+      - scenario_execution_py_trees_ros
+      - scenario_execution_ros
+      - scenario_execution_rviz
+      - scenario_execution_x11
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/revyos-ros/scenario_execution-release.git
+      version: 1.2.0-4
+    source:
+      type: git
+      url: https://github.com/IntelLabs/scenario_execution.git
+      version: jazzy
+    status: developed
   sdformat_urdf:
     doc:
       type: git
@@ -7962,7 +8037,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/revyos-ros/srdfdom-release.git
-      version: 2.0.4-5
+      version: 2.0.5-1
     source:
       type: git
       url: https://github.com/ros-planning/srdfdom.git
@@ -8026,7 +8101,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/revyos-ros/swri_console-release.git
-      version: 2.0.5-1
+      version: 2.0.6-1
     source:
       type: git
       url: https://github.com/swri-robotics/swri_console.git
@@ -8102,7 +8177,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/revyos-ros/teleop_tools-release.git
-      version: 1.5.1-1
+      version: 1.6.0-1
     source:
       type: git
       url: https://github.com/ros-teleop/teleop_tools.git
@@ -8462,6 +8537,42 @@ repositories:
       url: https://github.com/turtlebot/turtlebot4_desktop.git
       version: jazzy
     status: developed
+  turtlebot4_robot:
+    doc:
+      type: git
+      url: https://github.com/turtlebot/turtlebot4_robot.git
+      version: jazzy
+    release:
+      packages:
+      - turtlebot4_base
+      - turtlebot4_bringup
+      - turtlebot4_diagnostics
+      - turtlebot4_robot
+      - turtlebot4_tests
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/revyos-ros/turtlebot4_robot-release.git
+      version: 2.0.0-1
+    source:
+      type: git
+      url: https://github.com/turtlebot/turtlebot4_robot.git
+      version: jazzy
+    status: developed
+  turtlebot4_setup:
+    doc:
+      type: git
+      url: https://github.com/turtlebot/turtlebot4_setup.git
+      version: jazzy
+    release:
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/revyos-ros/turtlebot4_setup-release.git
+      version: 2.0.1-1
+    source:
+      type: git
+      url: https://github.com/turtlebot/turtlebot4_setup.git
+      version: jazzy
+    status: developed
   turtlebot4_simulator:
     doc:
       type: git
@@ -8521,7 +8632,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/revyos-ros/twist_mux-release.git
-      version: 4.3.0-4
+      version: 4.4.0-1
     source:
       type: git
       url: https://github.com/ros-teleop/twist_mux.git
@@ -8676,16 +8787,16 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-industrial/ur_msgs.git
-      version: foxy
+      version: humble
     release:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/revyos-ros/ur_msgs-release.git
-      version: 2.0.0-5
+      version: 2.0.1-1
     source:
       type: git
       url: https://github.com/ros-industrial/ur_msgs.git
-      version: foxy
+      version: humble-devel
     status: developed
   ur_robot_driver:
     doc:
