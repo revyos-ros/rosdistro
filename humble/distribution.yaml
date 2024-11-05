@@ -6666,7 +6666,7 @@ repositories:
       - qb_softhand_industry_srvs
       tags:
         release: release/humble/{package}/{version}
-      url: https://bitbucket.org/qbrobotics/qbshin-ros2-release.git
+      url: https://github.com/revyos-ros/qbshin-ros2-release.git
       version: 2.1.2-4
     source:
       type: git
