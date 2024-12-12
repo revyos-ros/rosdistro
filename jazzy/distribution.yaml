@@ -2428,7 +2428,6 @@ repositories:
         release: release/jazzy/{package}/{version}
       url: https://github.com/revyos-ros/grasping_msgs-ros2-gbp.git
       version: 0.5.0-1
-      type: git
     status: maintained
   grbl_msgs:
     doc:
