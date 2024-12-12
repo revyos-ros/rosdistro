@@ -9419,9 +9419,6 @@ xtensor:
     bionic: [xtensor-dev]
     jammy: [libxtensor-dev]
     noble: [libxtensor-dev]
-  debian:
-    '*': [libxtensor-dev]
-    focal: null
 xterm:
   arch: [xterm]
   debian: [xterm]
