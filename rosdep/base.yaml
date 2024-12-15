@@ -1952,6 +1952,8 @@ gz-physics5:
 gz-physics6:
   gentoo: ['sci-libs/gz-physics:6']
 gz-plugin:
+  debian:
+    bookworm: [libgz-plugin-dev]
   ubuntu:
     focal: [libgz-plugin-dev]
     jammy: [libgz-plugin-dev]
