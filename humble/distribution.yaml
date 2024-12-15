@@ -10273,10 +10273,11 @@ repositories:
       - tiago_2dnav
       - tiago_laser_sensors
       - tiago_navigation
+      - tiago_rgbd_sensors
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/revyos-ros/tiago_navigation-release.git
-      version: 4.5.0-1
+      version: 4.7.0-1
     source:
       type: git
       url: https://github.com/pal-robotics/tiago_navigation.git
