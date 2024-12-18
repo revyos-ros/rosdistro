@@ -1102,7 +1102,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/revyos-ros/camera_aravis2-release.git
-      version: 1.0.0-2
+      version: 1.1.0-1
     source:
       test_pull_requests: true
       type: git
@@ -1118,7 +1118,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/revyos-ros/camera_ros-release.git
-      version: 0.2.0-1
+      version: 0.2.1-1
     source:
       test_pull_requests: true
       type: git
@@ -1382,8 +1382,8 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/clearpath-gbp/clearpath_ros2_socketcan_interface-release.git
-      version: 1.0.0-1
+      url: https://github.com/revyos-ros/clearpath_ros2_socketcan_interface-release.git
+      version: 1.0.1-2
     source:
       type: git
       url: https://github.com/clearpathrobotics/clearpath_ros2_socketcan_interface.git
@@ -2724,7 +2724,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/revyos-ros/franka_description-release.git
-      version: 0.2.0-1
+      version: 0.4.0-3
     source:
       type: git
       url: https://github.com/frankaemika/franka_description.git
@@ -7453,7 +7453,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/revyos-ros/realtime_tools-release.git
-      version: 2.9.0-1
+      version: 2.10.0-1
     source:
       type: git
       url: https://github.com/ros-controls/realtime_tools.git
@@ -8066,7 +8066,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/revyos-ros/ros2_control-release.git
-      version: 2.45.0-1
+      version: 2.46.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
@@ -9711,7 +9711,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/revyos-ros/slam_toolbox-release.git
-      version: 2.6.8-1
+      version: 2.6.9-1
     source:
       test_pull_requests: true
       type: git
@@ -9806,6 +9806,7 @@ repositories:
       type: git
       url: https://github.com/THA-Embedded-Systems-Lab/soar_ros.git
       version: main
+    status: maintained
   soccer_interfaces:
     doc:
       type: git
@@ -9919,7 +9920,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/revyos-ros/spatio_temporal_voxel_layer-release.git
-      version: 2.3.2-1
+      version: 2.3.3-1
     source:
       type: git
       url: https://github.com/SteveMacenski/spatio_temporal_voxel_layer.git
@@ -11597,6 +11598,17 @@ repositories:
       type: git
       url: https://github.com/uleroboticsgroup/yasmin.git
       version: main
+    release:
+      packages:
+      - yasmin
+      - yasmin_demos
+      - yasmin_msgs
+      - yasmin_ros
+      - yasmin_viewer
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/revyos-ros/yasmin-release.git
+      version: 3.0.3-1
     source:
       type: git
       url: https://github.com/uleroboticsgroup/yasmin.git
