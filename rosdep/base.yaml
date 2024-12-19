@@ -1297,10 +1297,10 @@ gawk:
 gazebo:
   arch: [gazebo]
   debian:
+    bookworm: [gazebo11]
+    bullseye: [gazebo11]
     buster: [gazebo11]
     stretch: [gazebo9]
-    bullseye: [gazebo11]
-    bookworm: [gazebo11]
   fedora: [gazebo]
   gentoo: [sci-electronics/gazebo]
   nixos: [gazebo]
@@ -1311,9 +1311,9 @@ gazebo:
     jammy: [gazebo]
 gazebo11:
   debian:
-    buster: [gazebo11]
-    bullseye: [gazebo11]
     bookworm: [gazebo11]
+    bullseye: [gazebo11]
+    buster: [gazebo11]
   gentoo: [=sci-electronics/gazebo-11*]
   nixos: [gazebo_11]
   ubuntu:
@@ -1982,8 +1982,8 @@ gz-sim3:
     focal: [libgz-sim3-dev]
 gz-sim6:
   debian:
-    bullseye: [libgz-sim6-dev]
     bookworm: [libgz-sim6-dev]
+    bullseye: [libgz-sim6-dev]
   ubuntu:
     focal: [libgz-sim6-dev]
     jammy: [libgz-sim6-dev]
@@ -2117,9 +2117,9 @@ ignition-citadel:
     focal: [ignition-citadel]
 ignition-cmake2:
   debian:
+    '*': [libignition-cmake-dev]
     bookworm: [libignition-cmake-dev]
     buster: [libignition-cmake2-dev]
-    '*': [libignition-cmake-dev]
   gentoo: ['dev-build/ignition-cmake:2']
   nixos: [ignition.cmake2]
   ubuntu:
@@ -2134,9 +2134,9 @@ ignition-common3:
     focal: [libignition-common3-dev]
 ignition-common4:
   debian:
-    buster: [libignition-common4-dev]
-    bullseye: [libignition-common-dev]
     bookworm: [libignition-common-dev]
+    bullseye: [libignition-common-dev]
+    buster: [libignition-common4-dev]
   ubuntu:
     focal: [libignition-common4-dev]
     jammy: [libignition-common4-dev]
@@ -2147,9 +2147,9 @@ ignition-edifice:
     focal: [ignition-edifice]
 ignition-fortress:
   debian:
-    buster: [ignition-fortress]
-    bullseye: [ignition-fortress]
     bookworm: [ignition-fortress]
+    bullseye: [ignition-fortress]
+    buster: [ignition-fortress]
   ubuntu:
     focal: [ignition-fortress]
     jammy: [ignition-fortress]
@@ -2167,9 +2167,9 @@ ignition-fuel-tools6:
     focal: [libignition-fuel-tools6-dev]
 ignition-fuel-tools7:
   debian:
-    buster: [libignition-fuel-tools7-dev]
-    bullseye: [libignition-fuel-tools-dev]
     bookworm: [libignition-fuel-tools-dev]
+    bullseye: [libignition-fuel-tools-dev]
+    buster: [libignition-fuel-tools7-dev]
   ubuntu:
     focal: [libignition-fuel-tools7-dev]
     jammy: [libignition-fuel-tools7-dev]
@@ -2190,9 +2190,9 @@ ignition-gazebo5-plugins:
     focal: [libignition-gazebo5-plugins]
 ignition-gazebo6:
   debian:
-    buster: [libignition-gazebo6-dev]
-    bullseye: [libignition-gazebo-dev]
     bookworm: [libignition-gazebo-dev]
+    bullseye: [libignition-gazebo-dev]
+    buster: [libignition-gazebo6-dev]
   ubuntu:
     focal: [libignition-gazebo6-dev]
     jammy: [libignition-gazebo6-dev]
@@ -2214,9 +2214,9 @@ ignition-gui5:
     focal: [libignition-gui5-dev]
 ignition-gui6:
   debian:
-    buster: [libignition-gui6-dev]
-    bullseye: [libignition-gui-dev]
     bookworm: [libignition-gui-dev]
+    bullseye: [libignition-gui-dev]
+    buster: [libignition-gui6-dev]
   ubuntu:
     focal: [libignition-gui6-dev]
     jammy: [libignition-gui6-dev]
@@ -2238,9 +2238,9 @@ ignition-launch5:
     jammy: [libignition-launch5-dev]
 ignition-math6:
   debian:
+    '*': [libignition-math-dev]
     bookworm: [libignition-math-dev]
     buster: [libignition-math6-dev]
-    '*': [libignition-math-dev]
   gentoo: ['sci-libs/ignition-math:6']
   nixos: [ignition.math6]
   ubuntu:
@@ -2267,9 +2267,9 @@ ignition-msgs7:
     focal: [libignition-msgs7-dev]
 ignition-msgs8:
   debian:
-    buster: [libignition-msgs8-dev]
-    bullseye: [libignition-msgs-dev]
     bookworm: [libignition-msgs-dev]
+    bullseye: [libignition-msgs-dev]
+    buster: [libignition-msgs8-dev]
   ubuntu:
     focal: [libignition-msgs8-dev]
     jammy: [libignition-msgs8-dev]
@@ -2291,9 +2291,9 @@ ignition-physics5:
     jammy: [libignition-physics5-dev]
 ignition-plugin:
   debian:
-    buster: [libignition-plugin-dev]
-    bullseye: [libignition-plugin-dev]
     bookworm: [libignition-plugin-dev]
+    bullseye: [libignition-plugin-dev]
+    buster: [libignition-plugin-dev]
   ubuntu:
     focal: [libignition-plugin-dev]
     jammy: [libignition-plugin-dev]
@@ -2343,16 +2343,16 @@ ignition-transport10:
     focal: [libignition-transport10-dev]
 ignition-transport11:
   debian:
-    buster: [libignition-transport11-dev]
-    bullseye: [libignition-transport-dev]
     bookworm: [libignition-transport-dev]
+    bullseye: [libignition-transport-dev]
+    buster: [libignition-transport11-dev]
   ubuntu:
     focal: [libignition-transport11-dev]
     jammy: [libignition-transport11-dev]
 ignition-transport8:
   debian:
-    buster: [libignition-transport8-dev]
     bullseye: [libignition-transport8-dev]
+    buster: [libignition-transport8-dev]
   nixos: [ignition.transport8]
   ubuntu:
     focal: [libignition-transport8-dev]
@@ -2806,8 +2806,8 @@ libboost-coroutine:
   alpine: [boost-dev]
   arch: [boost-libs]
   debian:
-    bullseye: [libboost-coroutine1.74.0]
     bookworm: [libboost-coroutine1.74.0]
+    bullseye: [libboost-coroutine1.74.0]
     buster: [libboost-coroutine1.67.0]
   fedora: [boost-coroutine]
   gentoo: [dev-libs/boost]
@@ -2959,8 +2959,8 @@ libboost-numpy-dev:
 libboost-program-options:
   arch: [boost-libs]
   debian:
-    bullseye: [libboost-program-options1.74.0]
     bookworm: [libboost-program-options1.74.0]
+    bullseye: [libboost-program-options1.74.0]
     buster: [libboost-program-options1.67.0]
   fedora: [boost-program-options]
   gentoo: [dev-libs/boost]
@@ -3834,9 +3834,9 @@ libfyaml-dev:
     focal: null
 libgazebo-dev:
   debian:
+    bookworm: [libgazebo11-dev]
     bullseye: [libgazebo11-dev]
     buster: [libgazebo11-dev]
-    bookworm: [libgazebo11-dev]
   fedora: [gazebo-devel]
   gentoo: [=sci-electronics/gazebo-11*]
   ubuntu:
@@ -3844,9 +3844,9 @@ libgazebo-dev:
     jammy: [libgazebo-dev]
 libgazebo11-dev:
   debian:
-    buster: [libgazebo11-dev]
-    bullseye: [libgazebo11-dev]
     bookworm: [libgazebo11-dev]
+    bullseye: [libgazebo11-dev]
+    buster: [libgazebo11-dev]
   gentoo: [=sci-electronics/gazebo-11*]
   nixos: [gazebo_11]
   ubuntu:
@@ -4327,8 +4327,8 @@ libignition-transport10:
     focal: [libignition-transport10]
 libignition-transport8:
   debian:
-    buster: [libignition-transport8]
     bullseye: [libignition-transport8]
+    buster: [libignition-transport8]
   nixos: [ignition.transport8]
   ubuntu:
     focal: [libignition-transport8]
@@ -8426,9 +8426,9 @@ sdformat11:
     focal: [libsdformat11-dev]
 sdformat12:
   debian:
-    buster: [libsdformat12-dev]
-    bullseye: [libsdformat-dev]
     bookworm: [libsdformat-dev]
+    bullseye: [libsdformat-dev]
+    buster: [libsdformat12-dev]
   ubuntu:
     focal: [libsdformat12-dev]
     jammy: [libsdformat12-dev]
