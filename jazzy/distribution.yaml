@@ -1899,7 +1899,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/revyos-ros/fastcdr-release.git
-      version: 2.2.4-1
+      version: 2.2.6-1
     source:
       test_commits: false
       test_pull_requests: false
@@ -4022,7 +4022,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/revyos-ros/mola_lidar_odometry-release.git
-      version: 0.3.3-1
+      version: 0.4.0-1
     source:
       type: git
       url: https://github.com/MOLAorg/mola_lidar_odometry.git
@@ -4112,7 +4112,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/revyos-ros/moveit2-release.git
-      version: 2.12.0-1
+      version: 2.12.1-1
     source:
       test_commits: false
       test_pull_requests: false
@@ -4685,7 +4685,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/revyos-ros/ntrip_client-release.git
-      version: 1.3.0-4
+      version: 1.4.0-1
     source:
       test_pull_requests: true
       type: git
@@ -5168,7 +5168,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/revyos-ros/pinocchio-release.git
-      version: 3.3.0-1
+      version: 2.6.21-3
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
@@ -9281,7 +9281,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/revyos-ros/Universal_Robots_ROS2_Driver-release.git
-      version: 2.4.13-1
+      version: 3.0.0-1
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
