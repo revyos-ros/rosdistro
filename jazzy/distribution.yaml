@@ -1713,7 +1713,7 @@ repositories:
     release:
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/eiquadprog-release.git
+      url: https://github.com/revyos-ros/eiquadprog-release.git
       version: 1.2.9-1
     source:
       type: git
@@ -3720,7 +3720,7 @@ repositories:
     release:
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/marker_msgs-release.git
+      url: https://github.com/revyos-ros/marker_msgs-release.git
       version: 0.0.8-1
     source:
       type: git
@@ -5748,7 +5748,7 @@ repositories:
       - raspimouse_slam_navigation
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/raspimouse_slam_navigation_ros2-release.git
+      url: https://github.com/revyos-ros/raspimouse_slam_navigation_ros2-release.git
       version: 3.0.0-1
     source:
       test_pull_requests: true
@@ -9058,7 +9058,7 @@ repositories:
       - tuw_std_msgs
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/tuw_msgs-release.git
+      url: https://github.com/revyos-ros/tuw_msgs-release.git
       version: 0.2.4-1
     source:
       type: git
@@ -9291,7 +9291,7 @@ repositories:
     release:
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/ur_simulation_gz-release.git
+      url: https://github.com/revyos-ros/ur_simulation_gz-release.git
       version: 2.1.0-2
     source:
       type: git
@@ -9814,7 +9814,7 @@ repositories:
       - yasmin_viewer
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/ros2-gbp/yasmin-release.git
+      url: https://github.com/revyos-ros/yasmin-release.git
       version: 3.0.3-1
     source:
       type: git
