@@ -86,7 +86,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/revyos-ros/adi_3dtof_image_stitching-release.git
-      version: 2.1.0-1
+      version: 2.1.0-2
     source:
       type: git
       url: https://github.com/analogdevicesinc/adi_3dtof_image_stitching.git
