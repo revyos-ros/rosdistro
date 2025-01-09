@@ -3315,7 +3315,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros4hri/hri_actions_msgs-release.git
+      url: https://github.com/revyos-ros/hri_actions_msgs-release.git
       version: 2.2.0-1
     source:
       type: git
@@ -3330,7 +3330,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros4hri/hri_face_body_matcher-release.git
+      url: https://github.com/revyos-ros/hri_face_body_matcher-release.git
       version: 2.1.0-1
     source:
       type: git
@@ -3370,7 +3370,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros4hri/hri_privacy_msgs-release.git
+      url: https://github.com/revyos-ros/hri_privacy_msgs-release.git
       version: 1.2.0-1
     source:
       type: git
@@ -3385,7 +3385,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/ros4hri/hri_rviz-release.git
+      url: https://github.com/revyos-ros/hri_rviz-release.git
       version: 2.1.0-1
     source:
       type: git
