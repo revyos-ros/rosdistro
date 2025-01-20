@@ -1128,7 +1128,7 @@ repositories:
     release:
       tags:
         release: release/jazzy/{package}/{version}
-      url: https://github.com/revyos-rosb/coal-release.git
+      url: https://github.com/revyos-ros/coal-release.git
       version: 3.0.0-1
     source:
       type: git
