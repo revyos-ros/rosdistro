@@ -749,7 +749,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/revyos-ros/automatika_ros_sugar-release.git
-      version: 0.2.5-1
+      version: 0.2.6-1
     source:
       type: git
       url: https://github.com/automatika-robotics/ros-sugar.git
@@ -1316,7 +1316,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/revyos-ros/clearpath_common-release.git
-      version: 1.0.0-1
+      version: 1.1.1-1
     source:
       type: git
       url: https://github.com/clearpathrobotics/clearpath_common.git
@@ -1331,7 +1331,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/revyos-ros/clearpath_config-release.git
-      version: 1.0.0-1
+      version: 1.1.0-1
     source:
       type: git
       url: https://github.com/clearpathrobotics/clearpath_config.git
@@ -1588,7 +1588,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/revyos-ros/control_toolbox-release.git
-      version: 3.5.0-1
+      version: 3.6.0-1
     source:
       type: git
       url: https://github.com/ros-controls/control_toolbox.git
@@ -8476,7 +8476,7 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/revyos-ros/ros_babel_fish-release.git
-      version: 0.9.6-2
+      version: 0.9.4-1
     source:
       type: git
       url: https://github.com/LOEWE-emergenCITY/ros2_babel_fish.git

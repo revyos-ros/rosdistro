@@ -1029,6 +1029,33 @@ repositories:
       url: https://github.com/MetroRobots/classic_bags.git
       version: main
     status: developed
+  clearpath_common:
+    doc:
+      type: git
+      url: https://github.com/clearpathrobotics/clearpath_common.git
+      version: humble
+    release:
+      packages:
+      - clearpath_bt_joy
+      - clearpath_common
+      - clearpath_control
+      - clearpath_customization
+      - clearpath_description
+      - clearpath_generator_common
+      - clearpath_manipulators
+      - clearpath_manipulators_description
+      - clearpath_mounts_description
+      - clearpath_platform_description
+      - clearpath_sensors_description
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/clearpath-gbp/clearpath_common-release.git
+      version: 2.0.0-1
+    source:
+      type: git
+      url: https://github.com/clearpathrobotics/clearpath_common.git
+      version: jazzy
+    status: developed
   clearpath_config:
     doc:
       type: git
@@ -1038,7 +1065,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/revyos-ros/clearpath_config-release.git
-      version: 2.0.0-1
+      version: 2.0.1-1
     source:
       type: git
       url: https://github.com/clearpathrobotics/clearpath_config.git
@@ -2839,7 +2866,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/revyos-ros/gz_sim_vendor-release.git
-      version: 0.0.6-1
+      version: 0.0.7-1
     source:
       test_pull_requests: true
       type: git
@@ -4129,7 +4156,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/revyos-ros/mola_lidar_odometry-release.git
-      version: 0.5.3-1
+      version: 0.5.4-1
     source:
       type: git
       url: https://github.com/MOLAorg/mola_lidar_odometry.git
@@ -6347,6 +6374,16 @@ repositories:
       type: git
       url: https://github.com/open-rmf/rmf_demos.git
       version: jazzy
+    release:
+      packages:
+      - rmf_demos_assets
+      - rmf_demos_bridges
+      - rmf_demos_fleet_adapter
+      - rmf_demos_tasks
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/ros2-gbp/rmf_demos-release.git
+      version: 2.3.0-1
     source:
       type: git
       url: https://github.com/open-rmf/rmf_demos.git
