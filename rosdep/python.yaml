@@ -7346,6 +7346,19 @@ python3-msgpack:
   openembedded: [python3-msgpack@meta-python]
   rhel: ['python%{python3_pkgversion}-msgpack']
   ubuntu: [python3-msgpack]
+python3-msgpack-numpy:
+  debian: [python3-msgpack-numpy]
+  fedora:
+    pip:
+      packages: [msgpack-numpy]
+  opensuse: [python3-msgpack-numpy]
+  osx:
+    pip:
+      packages: [msgpack-numpy]
+  rhel:
+    pip:
+      packages: [msgpack-numpy]
+  ubuntu: [python3-msgpack-numpy]
 python3-msk-pip:
   debian:
     pip:
@@ -9055,6 +9068,10 @@ python3-pytest-xvfb:
     pip:
       packages: [pytest-xvfb]
   ubuntu: [python3-pytest-xvfb]
+python3-python-snap7-pip:
+  "*":
+    pip:
+      packages: [python-snap7]
 python3-pytorch-pip: *migrate_eol_2025_04_30_python3_pytorch_pip
 python3-pytrinamic-pip:
   debian:
@@ -9069,6 +9086,10 @@ python3-pytrinamic-pip:
   ubuntu:
     pip:
       packages: [pytrinamic]
+python3-pyubx2-pip:
+  '*':
+    pip:
+      packages: [pyubx2]
 python3-pyudev:
   debian: [python3-pyudev]
   fedora: [python3-pyudev]
@@ -9614,6 +9635,18 @@ python3-serial:
     '*': ['python%{python3_pkgversion}-pyserial']
     '7': null
   ubuntu: [python3-serial]
+python3-setproctitle:
+  alpine: [py3-setproctitle]
+  arch: [python-setproctitle]
+  debian: [python3-setproctitle]
+  fedora: [python3-setproctitle]
+  gentoo: [dev-python/setproctitle]
+  opensuse: [python3-setproctitle]
+  osx:
+    pip:
+      packages: [setproctitle]
+  rhel: [python3-setproctitle]
+  ubuntu: [python3-setproctitle]
 python3-setuptools:
   alpine: [py3-setuptools]
   arch: [python-setuptools]
@@ -10664,6 +10697,14 @@ python3-wgconfig-pip:
   ubuntu:
     pip:
       packages: [wgconfig]
+python3-wheel:
+  arch: [python-wheel]
+  debian: [python3-wheel]
+  fedora: [python3-wheel]
+  gentoo: [dev-python/wheel]
+  opensuse: [python3-wheel]
+  rhel: [python3-wheel]
+  ubuntu: [python3-wheel]
 python3-whichcraft:
   arch: [python-whichcraft]
   debian: [python3-whichcraft]
