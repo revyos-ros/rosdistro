@@ -3600,7 +3600,7 @@ repositories:
     release:
       tags:
         release: release/humble/{package}/{version}
-      url: https://github.com/revyos-ros/gz_cmake2_vendor-release
+      url: https://github.com/revyos-ros/gz_cmake2_vendor-release.git
       version: 0.0.2-3
     source:
       test_pull_requests: true
