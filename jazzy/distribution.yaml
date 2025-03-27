@@ -5347,7 +5347,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/revyos-ros/pal_statistics-release.git
-      version: 2.6.2-1
+      version: 2.6.2-2
     source:
       type: git
       url: https://github.com/pal-robotics/pal_statistics.git
