@@ -4232,7 +4232,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/revyos-ros/mapviz-release.git
-      version: 2.5.5-1
+      version: 2.5.6-1
     source:
       test_pull_requests: true
       type: git
